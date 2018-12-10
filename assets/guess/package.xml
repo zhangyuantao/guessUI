@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="u9b31fxf" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="v6ig3x" name="MainWindow.xml" path="/Main/" exported="true"/>
+    <component id="g4b83z" name="Button1.xml" path="/Buttons/"/>
+  </resources>
+  <publish name="guess" path="publish" maxAtlasSize="4096">
+    <atlas name="默认" index="0"/>
+  </publish>
+</packageDescription>

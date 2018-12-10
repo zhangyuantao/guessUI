@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" alpha="0.5" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <text id="n32_le83" name="n32" xy="99,102" size="525,84" font="SimHei" fontSize="80" color="#ffffff" text="猜一猜TA是谁?"/>
+    <graph id="n35_g4b8" name="n35" xy="66,249" size="586,439" type="rect" lineSize="5" lineColor="#ff33ff00" fillColor="#ff999999" corner="20"/>
+    <component id="n34_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="240,880" size="239,91">
+      <Button title="开始游戏" titleColor="#0066cc" titleFontSize="40"/>
+    </component>
+    <component id="n36_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="541,1022" size="91,91">
+      <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+    <component id="n37_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="239,1022" size="91,91">
+      <Button title="关卡" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+    <component id="n38_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="390,1022" size="91,91">
+      <Button title="转盘" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+    <component id="n39_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="88,1022" size="91,91">
+      <Button title="分享" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+  </displayList>
+</component>
