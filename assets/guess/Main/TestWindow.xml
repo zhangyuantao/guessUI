@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" alpha="0.5" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n35_g4b8" name="n35" xy="90,167" size="540,430" alpha="0.7" type="rect" lineSize="5" lineColor="#ff003399" fillColor="#ff666666" corner="20"/>
+    <component id="n36_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="600,54" size="90,50">
+      <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+    <component id="n39_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="30,54" size="90,50">
+      <Button title="关卡" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+    <component id="n40_ka02" name="n40" src="ka0243" fileName="Main/GoldComp.xml" xy="277,69"/>
+    <component id="n42_ka02" name="tip1" src="ka0241" fileName="Main/TipItem.xml" xy="110,184" size="500,80"/>
+    <component id="n43_ka02" name="tip2" src="ka0241" fileName="Main/TipItem.xml" xy="110,289" size="500,80"/>
+    <component id="n44_ka02" name="tip3" src="ka0241" fileName="Main/TipItem.xml" xy="110,394" size="500,80"/>
+    <component id="n45_ka02" name="tip4" src="ka0241" fileName="Main/TipItem.xml" xy="110,499" size="500,80"/>
+    <graph id="n47_ka02" name="n47" xy="85,718" size="550,100" touchable="false" type="rect" lineSize="0" fillColor="#ff009999" corner="15">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n50_ka02" name="n50" xy="84,729" size="550,80" layout="row" selectionMode="none" overflow="scroll" colGap="40" align="center">
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+    </list>
+    <graph id="n52_ka02" name="n52" xy="85,836" size="550,320" touchable="false" type="rect" lineSize="0" fillColor="#ff009999" corner="15">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <list id="n51_ka02" name="n51" xy="85,847" size="550,296" layout="flow_hz" selectionMode="none" lineGap="25" colGap="40" lineItemCount="4" align="center">
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+    </list>
+    <graph id="n53_ka02" name="n53" xy="0,1182" size="720,100" touchable="false" type="rect" lineSize="0" fillColor="#ff009999">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n54_ka02" name="n54" xy="262,1210" pivot="0.5,0.5" size="195,42" fontSize="38" color="#ffffff" text="底部Banner"/>
+    <component id="n55_ka02" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="170,640" pivot="0.5,0" size="140,40">
+      <Button title="更多提示" titleColor="#0066cc" titleFontSize="24"/>
+    </component>
+    <component id="n56_ka02" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="410,640" pivot="0.5,0" size="140,40">
+      <Button title="解锁答案" titleColor="#0066cc" titleFontSize="24"/>
+    </component>
+    <component id="n57_ka02" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="10,632" pivot="0.5,0" size="80,56">
+      <Button title="考好友" titleColor="#0066cc" titleFontSize="24"/>
+    </component>
+    <component id="n58_ka02" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="630,630" pivot="0.5,0" size="80,56">
+      <Button title="红包" titleColor="#0066cc" titleFontSize="24"/>
+    </component>
+    <component id="n59_ka02" name="n59" src="ka0244" fileName="Main/RankTipComp.xml" xy="640,164" size="100,40"/>
+    <component id="n60_ka02" name="n60" src="ka0244" fileName="Main/RankTipComp.xml" xy="640,215" size="100,40"/>
+    <component id="n61_ka02" name="n61" src="ka0244" fileName="Main/RankTipComp.xml" xy="640,265" size="100,40"/>
+  </displayList>
+</component>

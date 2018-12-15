@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="162,40">
+  <displayList>
+    <graph id="n40_ka02" name="n40" xy="0,0" size="162,40" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc" corner="20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n41_ka02" name="n41" xy="9,6" size="144,29" fontSize="25" autoSize="none" text="金币：100"/>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,40">
+  <displayList>
+    <graph id="n40_ka02" name="n40" xy="0,0" size="100,40" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc" corner="20">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n41_ka02" name="n41" xy="38,0" size="51,40" fontSize="30" vAlign="middle" autoSize="none" text="15">
+      <relation target="n42_ka02" sidePair="left-left"/>
+    </text>
+    <graph id="n42_ka02" name="n42" xy="6,5" size="30,30" type="eclipse" lineSize="0" lineColor="#ff009999" fillColor="#ff006699">
+      <relation target="" sidePair="left-left"/>
+    </graph>
+  </displayList>
+</component>
