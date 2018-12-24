@@ -4,10 +4,12 @@
     <component id="v6ig3x" name="MainWindow.xml" path="/Main/" exported="true"/>
     <component id="g4b83z" name="Button1.xml" path="/Buttons/"/>
     <component id="ka0240" name="TestWindow.xml" path="/Main/" exported="true"/>
-    <component id="ka0241" name="TipItem.xml" path="/Main/"/>
-    <component id="ka0242" name="WordItem.xml" path="/Main/"/>
+    <component id="ka0241" name="TipItem.xml" path="/Main/" exported="true"/>
+    <component id="ka0242" name="WordItem.xml" path="/Main/" exported="true"/>
     <component id="ka0243" name="GoldComp.xml" path="/Main/"/>
-    <component id="ka0244" name="RankTipComp.xml" path="/Main/"/>
+    <component id="ka0244" name="RankTipComp.xml" path="/Main/" exported="true"/>
+    <component id="d3ko45" name="StageWindow.xml" path="/Main/" exported="true"/>
+    <component id="d3ko46" name="StageItem.xml" path="/Main/" exported="true"/>
   </resources>
   <publish name="guess" path="publish" maxAtlasSize="4096">
     <atlas name="默认" index="0"/>

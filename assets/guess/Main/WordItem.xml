@@ -4,6 +4,6 @@
     <graph id="n0_ka02" name="n0" xy="0,0" size="80,80" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc" corner="20">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1_ka02" name="n1" xy="0,0" size="80,80" fontSize="55" color="#333333" align="center" vAlign="middle" autoSize="none" text="李"/>
+    <text id="n1_ka02" name="txtChar" xy="0,0" size="80,80" fontSize="55" color="#333333" align="center" vAlign="middle" autoSize="none" text="李"/>
   </displayList>
 </component>

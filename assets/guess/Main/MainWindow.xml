@@ -7,16 +7,16 @@
     <component id="n34_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="240,880" size="239,91">
       <Button title="开始游戏" titleColor="#0066cc" titleFontSize="40"/>
     </component>
-    <component id="n36_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="541,1022" size="91,91">
+    <component id="n36_g4b8" name="btnRank" src="g4b83z" fileName="Buttons/Button1.xml" xy="541,1022" size="91,91">
       <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
     </component>
-    <component id="n37_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="239,1022" size="91,91">
+    <component id="n37_g4b8" name="btnStage" src="g4b83z" fileName="Buttons/Button1.xml" xy="239,1022" size="91,91">
       <Button title="关卡" titleColor="#0066cc" titleFontSize="30"/>
     </component>
-    <component id="n38_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="390,1022" size="91,91">
+    <component id="n38_g4b8" name="btnDraw" src="g4b83z" fileName="Buttons/Button1.xml" xy="390,1022" size="91,91">
       <Button title="转盘" titleColor="#0066cc" titleFontSize="30"/>
     </component>
-    <component id="n39_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="88,1022" size="91,91">
+    <component id="n39_g4b8" name="btnShare" src="g4b83z" fileName="Buttons/Button1.xml" xy="88,1022" size="91,91">
       <Button title="分享" titleColor="#0066cc" titleFontSize="30"/>
     </component>
   </displayList>
