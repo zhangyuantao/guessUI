@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" alpha="0.3" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n35_g4b8" name="n35" xy="185,249" size="350,150" type="rect" lineSize="0" lineColor="#ff33ff00" fillColor="#ff333333" corner="20"/>
+    <text id="n32_le83" name="txtTip" xy="185,298" size="350,54" font="SimHei" fontSize="45" color="#ffffff" align="center" autoSize="none" text="答错了！"/>
+    <component id="n40_yhsu" name="btnNext" src="g4b83z" fileName="Buttons/Button1.xml" xy="506,233" size="50,50">
+      <Button title="X" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+  </displayList>
+</component>

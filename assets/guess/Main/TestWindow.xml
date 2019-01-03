@@ -2,18 +2,14 @@
 <component size="720,1280">
   <displayList>
     <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" type="rect" lineSize="0" fillColor="#ff333333"/>
-    <graph id="n35_g4b8" name="n35" xy="90,167" size="540,430" alpha="0.7" type="rect" lineSize="5" lineColor="#ff003399" fillColor="#ff666666" corner="20"/>
+    <component id="n35_g4b8" name="questionPanel" src="nfab4e" fileName="Main/QuestionPanel.xml" xy="90,167"/>
     <component id="n36_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="600,54" size="90,50">
       <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
     </component>
     <component id="n39_g4b8" name="btnBack" src="g4b83z" fileName="Buttons/Button1.xml" xy="24,19" size="70,60">
       <Button title="返回" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n40_ka02" name="n40" src="ka0243" fileName="Main/GoldComp.xml" xy="265,59"/>
-    <component id="n42_ka02" name="tip1" src="ka0241" fileName="Main/TipItem.xml" xy="110,184" size="500,80"/>
-    <component id="n43_ka02" name="tip2" src="ka0241" fileName="Main/TipItem.xml" xy="110,289" size="500,80"/>
-    <component id="n44_ka02" name="tip3" src="ka0241" fileName="Main/TipItem.xml" xy="110,394" size="500,80"/>
-    <component id="n45_ka02" name="tip4" src="ka0241" fileName="Main/TipItem.xml" xy="110,499" size="500,80"/>
+    <component id="n40_ka02" name="goldComp" src="ka0243" fileName="Main/GoldComp.xml" xy="265,59"/>
     <graph id="n47_ka02" name="n47" xy="85,718" size="550,100" touchable="false" type="rect" lineSize="0" fillColor="#ff009999" corner="15">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
@@ -35,7 +31,7 @@
     <component id="n57_ka02" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="10,632" pivot="0.5,0" size="80,56">
       <Button title="考好友" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n58_ka02" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="630,630" pivot="0.5,0" size="80,56">
+    <component id="n58_ka02" name="btnRedBag" src="g4b83z" fileName="Buttons/Button1.xml" xy="630,630" pivot="0.5,0" size="80,56">
       <Button title="红包" titleColor="#0066cc" titleFontSize="24"/>
     </component>
     <component id="n59_ka02" name="n59" src="ka0244" fileName="Main/RankTipComp.xml" xy="640,164" size="100,40"/>
@@ -44,5 +40,6 @@
     <component id="n62_9swb" name="btnStage" src="g4b83z" fileName="Buttons/Button1.xml" xy="483,54" size="90,50">
       <Button title="关卡" titleColor="#0066cc" titleFontSize="30"/>
     </component>
+    <component id="n63_fr5x" name="wrongTip" src="fr5x4a" fileName="Main/WrongTip.xml" xy="0,0" locked="true" hideByEditor="true" visible="false"/>
   </displayList>
 </component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n46_fr5x" name="n46" xy="0,0" size="720,1280" lineSize="0" lineColor="#ff33ff00" fillColor="#ff333333" corner="20"/>
+    <graph id="n35_g4b8" name="n35" xy="210,494" size="300,150" type="rect" lineSize="0" lineColor="#ff33ff00" fillColor="#ff333333" corner="20"/>
+    <text id="n32_le83" name="txtTip" xy="210,542" size="300,54" font="SimHei" fontSize="43" color="#ffffff" align="center" autoSize="none" text="答错了！">
+      <relation target="n35_g4b8" sidePair="top-top"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n35_g4b8" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n32_le83" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="18" type="Alpha" target="n35_g4b8" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="18" type="Alpha" target="n32_le83" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
+</component>

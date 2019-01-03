@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n46_fr5x" name="n46" xy="0,0" size="720,1280" lineSize="0" lineColor="#ff33ff00" fillColor="#ff333333" corner="20"/>
+    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" alpha="0.2" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n35_g4b8" name="n35" xy="185,431" size="350,220" type="rect" lineSize="0" lineColor="#ff33ff00" fillColor="#ff333333" corner="20"/>
+    <text id="n32_le83" name="txtTip" xy="185,453" size="350,54" font="SimHei" fontSize="45" color="#ffffff" align="center" autoSize="none" text=" 恭喜你答对了！"/>
+    <component id="n40_yhsu" name="btnNext" src="g4b83z" fileName="Buttons/Button1.xml" xy="300,745" size="120,50">
+      <relation target="n41_gv7h" sidePair="left-left,top-top"/>
+      <Button title="下一题" titleColor="#0066cc" titleFontSize="24"/>
+    </component>
+    <component id="n41_gv7h" name="btnInvite" src="g4b83z" fileName="Buttons/Button1.xml" xy="300,667" size="120,50">
+      <Button title="邀请有奖" titleColor="#0066cc" titleFontSize="24"/>
+    </component>
+    <text id="n42_gv7h" name="n1" xy="197,536" size="325,24" font="SimHei" fontSize="20" color="#ffffff" align="center" vAlign="middle" text="------------好友排行------------"/>
+    <component id="n43_gv7h" name="rankPre" src="gv7h48" fileName="Main/RankComp.xml" xy="265,568">
+      <relation target="n44_gv7h" sidePair="left-left"/>
+    </component>
+    <component id="n44_gv7h" name="rankMe" src="gv7h48" fileName="Main/RankComp.xml" xy="335,568"/>
+    <component id="n45_gv7h" name="rankNxt" src="gv7h48" fileName="Main/RankComp.xml" xy="405,568">
+      <relation target="n44_gv7h" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

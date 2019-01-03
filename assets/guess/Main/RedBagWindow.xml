@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n0_nfab" name="n0" xy="1,0" size="720,1280" alpha="0.3" type="rect" fillColor="#ff333333"/>
+    <graph id="n1_nfab" name="n1" xy="201,344" size="329,478" type="rect" lineSize="2" lineColor="#ffff0000" fillColor="#ff993333" corner="10"/>
+    <text id="n2_nfab" name="n2" xy="248,433" size="224,34" fontSize="30" color="#ffffff" text="当前红包金额："/>
+    <text id="n3_nfab" name="txtMoney" xy="282,528" size="155,67" fontSize="63" color="#ffffff" align="center" autoSize="none" text="18.8"/>
+    <component id="n6_nfab" name="btnClose" src="nfab4c" fileName="Buttons/Button2.xml" xy="506,325" size="50,50" aspect="true">
+      <Button title="X"/>
+    </component>
+    <component id="n7_nfab" name="btnContact" src="g4b83z" fileName="Buttons/Button1.xml" xy="405,784" size="120,30">
+      <Button title="联系提现>>" titleFontSize="18"/>
+    </component>
+  </displayList>
+</component>

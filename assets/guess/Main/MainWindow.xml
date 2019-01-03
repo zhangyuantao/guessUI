@@ -19,5 +19,8 @@
     <component id="n39_g4b8" name="btnShare" src="g4b83z" fileName="Buttons/Button1.xml" xy="88,1022" size="91,91">
       <Button title="分享" titleColor="#0066cc" titleFontSize="30"/>
     </component>
+    <component id="n40_nfab" name="btnRedBag" src="g4b83z" fileName="Buttons/Button1.xml" xy="605,740" pivot="0.5,0" size="80,56">
+      <Button title="红包" titleColor="#0066cc" titleFontSize="24"/>
+    </component>
   </displayList>
 </component>
