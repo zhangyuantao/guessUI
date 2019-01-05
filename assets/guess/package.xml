@@ -17,6 +17,7 @@
     <component id="nfab4b" name="RedBagWindow.xml" path="/Main/" exported="true"/>
     <component id="nfab4c" name="Button2.xml" path="/Buttons/"/>
     <component id="nfab4e" name="QuestionPanel.xml" path="/Main/" exported="true"/>
+    <component id="bhgb4f" name="QuestionPanelDM.xml" path="/Main/" exported="true"/>
   </resources>
   <publish name="guess" path="publish" maxAtlasSize="4096">
     <atlas name="默认" index="0"/>

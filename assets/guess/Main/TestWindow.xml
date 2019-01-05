@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
+  <controller name="typeCtrl" pages="0,,1," selected="1"/>
   <displayList>
     <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" type="rect" lineSize="0" fillColor="#ff333333"/>
-    <component id="n35_g4b8" name="questionPanel" src="nfab4e" fileName="Main/QuestionPanel.xml" xy="90,167"/>
+    <component id="n35_g4b8" name="questionPanel" src="nfab4e" fileName="Main/QuestionPanel.xml" xy="90,167">
+      <gearDisplay controller="typeCtrl" pages="0"/>
+    </component>
+    <component id="n64_bhgb" name="questionPanelDM" src="bhgb4f" fileName="Main/QuestionPanelDM.xml" xy="90,167">
+      <gearDisplay controller="typeCtrl" pages="1"/>
+    </component>
     <component id="n36_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="600,54" size="90,50">
       <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
     </component>

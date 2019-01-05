@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,430">
+  <displayList>
+    <graph id="n35_g4b8" name="n35" xy="0,0" size="540,430" alpha="0.7" type="rect" lineSize="5" lineColor="#ff003399" fillColor="#ff666666" corner="20"/>
+    <graph id="n69_nfab" name="n69" xy="69,62" size="400,137" type="rect" fillColor="#ff006666" corner="10"/>
+    <text id="n66_nfab" name="txtDMTip1" xy="98,76" size="347,111" fontSize="46" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="丈二和尚"/>
+    <text id="n67_nfab" name="txtDMTip2" xy="96,238" size="347,40" fontSize="36" color="#ffffff" align="center" autoSize="none" text="打一字"/>
+    <text id="n68_nfab" name="txtDMTip3" xy="66,329" size="408,30" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="小提示：士大夫大师傅"/>
+  </displayList>
+</component>
