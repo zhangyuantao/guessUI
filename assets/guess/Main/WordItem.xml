@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="80,80">
+<component size="70,70">
   <displayList>
-    <graph id="n0_ka02" name="n0" xy="0,0" size="80,80" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc" corner="20">
+    <graph id="n0_ka02" name="n0" xy="0,0" size="70,70" touchable="false" type="rect" lineSize="2" lineColor="#ff666666" fillColor="#ffcccccc" corner="15">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1_ka02" name="txtChar" xy="0,0" size="80,80" fontSize="55" color="#333333" align="center" vAlign="middle" autoSize="none" text="李"/>
+    <graph id="n2_bhgb" name="color" xy="0,0" size="70,70" alpha="0" touchable="false" type="rect" lineSize="0" lineColor="#ff00ff33" fillColor="#ff33ff99" corner="15">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_ka02" name="txtChar" xy="0,0" size="70,70" fontSize="50" color="#333333" align="center" vAlign="middle" autoSize="none" text="李"/>
   </displayList>
 </component>
