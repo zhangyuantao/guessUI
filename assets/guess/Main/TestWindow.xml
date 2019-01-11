@@ -1,51 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
-  <controller name="typeCtrl" pages="0,,1," selected="1"/>
+  <controller name="themCtrl" pages="0,,1," selected="1"/>
   <displayList>
-    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" type="rect" lineSize="0" fillColor="#ff333333"/>
-    <component id="n35_g4b8" name="questionPanel" src="nfab4e" fileName="Main/QuestionPanel.xml" xy="90,169">
-      <gearDisplay controller="typeCtrl" pages="0"/>
+    <image id="n66_olms" name="n66" src="ns705e" fileName="主页面_slices/主页面.jpg" xy="0,0" size="720,1280">
+      <gearDisplay controller="themCtrl" pages="0"/>
+    </image>
+    <image id="n23_le83" name="n23" src="olms7z" fileName="元宵切图/元宵3.jpg" xy="0,0" size="720,1280" locked="true">
+      <gearDisplay controller="themCtrl" pages="1"/>
+    </image>
+    <component id="n35_g4b8" name="questionPanel" src="nfab4e" fileName="Main/QuestionPanel.xml" xy="64,159">
+      <gearDisplay controller="themCtrl" pages="0"/>
+      <relation target="" sidePair="center-center,top-top"/>
     </component>
-    <component id="n64_bhgb" name="questionPanelDM" src="bhgb4f" fileName="Main/QuestionPanelDM.xml" xy="90,169">
-      <gearDisplay controller="typeCtrl" pages="1"/>
+    <component id="n64_bhgb" name="questionPanelDM" src="bhgb4f" fileName="Main/QuestionPanelDM.xml" xy="64,159">
+      <gearDisplay controller="themCtrl" pages="1"/>
+      <relation target="" sidePair="center-center,top-top"/>
     </component>
-    <component id="n36_g4b8" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="600,82" size="90,50">
+    <component id="n36_g4b8" name="btnStart" src="ns705f" fileName="Buttons/ButtonRank2.xml" xy="613,27">
       <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
     </component>
-    <component id="n39_g4b8" name="btnBack" src="g4b83z" fileName="Buttons/Button1.xml" xy="24,19" size="70,60">
+    <component id="n39_g4b8" name="btnBack" src="v3gz5n" fileName="Buttons/ButtonHome.xml" xy="29,27">
       <Button title="返回" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n40_ka02" name="goldComp" src="ka0243" fileName="Main/GoldComp.xml" xy="161,86" size="200,40"/>
-    <graph id="n47_ka02" name="n47" xy="110,725" size="500,80" touchable="false" type="rect" lineSize="0" fillColor="#ff009999" corner="15">
-      <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <list id="n50_ka02" name="lstSelect" xy="110,736" size="500,60" layout="row" selectionMode="none" colGap="25" align="center"/>
-    <graph id="n52_ka02" name="n52" xy="110,833" size="500,300" touchable="false" type="rect" lineSize="0" fillColor="#ff009999" corner="15">
-      <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <list id="n51_ka02" name="lstOption" xy="110,841" size="500,280" layout="flow_hz" selectionMode="none" lineGap="20" colGap="40" lineItemCount="4" align="center" vAlign="middle"/>
-    <graph id="n53_ka02" name="n53" xy="0,1160" size="720,120" touchable="false" type="rect" lineSize="0" fillColor="#ff009999">
+    <component id="n40_ka02" name="goldComp" src="ka0243" fileName="Main/GoldComp.xml" xy="135,50"/>
+    <list id="n50_ka02" name="lstSelect" xy="110,755" size="500,72" layout="flow_hz" selectionMode="none" colGap="33" align="center" vAlign="middle">
+      <item url="ui://u9b31fxfbhgb4h"/>
+      <item url="ui://u9b31fxfbhgb4h"/>
+      <item url="ui://u9b31fxfbhgb4h"/>
+      <item url="ui://u9b31fxfbhgb4h"/>
+      <item url="ui://u9b31fxfbhgb4h"/>
+    </list>
+    <list id="n51_ka02" name="lstOption" xy="110,857" size="500,280" layout="flow_hz" selectionMode="none" lineGap="13" colGap="50" lineItemCount="4" align="center" vAlign="middle">
+      <relation target="n50_ka02" sidePair="top-top"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+      <item url="ui://u9b31fxfka0242"/>
+    </list>
+    <graph id="n53_ka02" name="n53" xy="0,1160" size="720,120" touchable="false" type="rect" lineSize="0" fillColor="#ff46b8fd">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <text id="n54_ka02" name="n54" xy="262,1201" pivot="0.5,0.5" size="195,42" fontSize="38" color="#ffffff" text="底部Banner"/>
-    <component id="n55_ka02" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="170,640" pivot="0.5,0" size="140,40">
+    <component id="n55_ka02" name="btnStart" src="ns705i" fileName="Buttons/ButtonMoreTip.xml" xy="60,632" pivot="0.5,0">
+      <relation target="" sidePair="top-top"/>
       <Button title="更多提示" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n56_ka02" name="btnUnlock" src="g4b83z" fileName="Buttons/Button1.xml" xy="410,640" pivot="0.5,0" size="140,40">
+    <component id="n56_ka02" name="btnUnlock" src="ns705j" fileName="Buttons/ButtonGoldUnlock.xml" xy="393,632" pivot="0.5,0">
       <Button title="解锁答案" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n57_ka02" name="btnStart" src="g4b83z" fileName="Buttons/Button1.xml" xy="10,632" pivot="0.5,0" size="80,56">
+    <component id="n57_ka02" name="btnStart" src="ns705h" fileName="Buttons/ButtonShareFriend.xml" xy="7,728" pivot="0.5,0">
+      <relation target="" sidePair="left-left,top-top"/>
       <Button title="考好友" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n58_ka02" name="btnRedBag" src="g4b83z" fileName="Buttons/Button1.xml" xy="630,630" pivot="0.5,0" size="80,56">
+    <component id="n58_ka02" name="btnRedBag" src="ns705c" fileName="Buttons/ButtonRedbag.xml" xy="7,836" pivot="0.5,0">
       <Button title="红包" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n59_ka02" name="n59" src="ka0244" fileName="Main/RankTipComp.xml" xy="640,164" size="100,40"/>
-    <component id="n60_ka02" name="n60" src="ka0244" fileName="Main/RankTipComp.xml" xy="625,215" size="118,40"/>
-    <component id="n61_ka02" name="n61" src="ka0244" fileName="Main/RankTipComp.xml" xy="640,265" size="100,40"/>
-    <component id="n62_9swb" name="btnStage" src="g4b83z" fileName="Buttons/Button1.xml" xy="483,82" size="90,50">
+    <component id="n59_ka02" name="n59" src="ka0244" fileName="Main/RankTipComp.xml" xy="608,199"/>
+    <component id="n60_ka02" name="n60" src="ka0244" fileName="Main/RankTipComp.xml" xy="622,257">
+      <relation target="n59_ka02" sidePair="left-left"/>
+    </component>
+    <component id="n61_ka02" name="n61" src="ka0244" fileName="Main/RankTipComp.xml" xy="636,315">
+      <relation target="n60_ka02" sidePair="left-left"/>
+    </component>
+    <component id="n62_9swb" name="btnStage" src="ns705g" fileName="Buttons/ButtonStage2.xml" xy="508,27">
       <Button title="关卡" titleColor="#0066cc" titleFontSize="30"/>
     </component>
     <component id="n63_fr5x" name="wrongTip" src="fr5x4a" fileName="Main/WrongTip.xml" xy="0,0" locked="true" hideByEditor="true" visible="false"/>
+    <image id="n67_olms" name="n67" src="ns704x" fileName="主页面_slices/圆角矩形 3@2x.png" xy="212,122"/>
+    <text id="n68_olms" name="txtLevel" xy="233,133" size="272,50" fontSize="46" color="#a5120f" align="center" autoSize="none" text="第 20 关">
+      <gearDisplay controller="themCtrl" pages=""/>
+      <gearColor controller="themCtrl" pages="1" values="#a5120f,#000000" default="#ffffff,#000000"/>
+    </text>
   </displayList>
 </component>

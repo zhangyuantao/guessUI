@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="540,430">
+<component size="591,442">
   <displayList>
-    <graph id="n35_g4b8" name="n35" xy="0,0" size="540,430" alpha="0.7" type="rect" lineSize="5" lineColor="#ff003399" fillColor="#ff666666" corner="20"/>
-    <component id="n42_ka02" name="tip1" src="ka0241" fileName="Main/TipItem.xml" xy="20,17" size="500,80"/>
-    <component id="n43_ka02" name="tip2" src="ka0241" fileName="Main/TipItem.xml" xy="20,122" size="500,80"/>
-    <component id="n44_ka02" name="tip3" src="ka0241" fileName="Main/TipItem.xml" xy="20,227" size="500,80"/>
-    <component id="n45_ka02" name="tip4" src="ka0241" fileName="Main/TipItem.xml" xy="20,332" size="500,80"/>
+    <graph id="n35_g4b8" name="n35" xy="0,0" size="591,442" type="rect" lineSize="0" lineColor="#ff003399" corner="16">
+      <relation target="" sidePair="height-height,width-width"/>
+    </graph>
+    <component id="n42_ka02" name="tip1" src="ka0241" fileName="Main/TipItem.xml" xy="75,63">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n43_ka02" name="tip2" src="ka0241" fileName="Main/TipItem.xml" xy="75,149">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n44_ka02" name="tip3" src="ka0241" fileName="Main/TipItem.xml" xy="75,235">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n45_ka02" name="tip4" src="ka0241" fileName="Main/TipItem.xml" xy="75,321">
+      <relation target="" sidePair="center-center"/>
+    </component>
   </displayList>
 </component>

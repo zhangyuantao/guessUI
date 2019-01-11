@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
   <displayList>
-    <graph id="n0_nfab" name="n0" xy="1,0" size="720,1280" alpha="0.3" type="rect" fillColor="#ff333333"/>
-    <graph id="n1_nfab" name="n1" xy="201,344" size="329,478" type="rect" lineSize="2" lineColor="#ffff0000" fillColor="#ff993333" corner="10"/>
-    <text id="n2_nfab" name="n2" xy="248,433" size="224,34" fontSize="30" color="#ffffff" text="当前红包金额："/>
-    <text id="n3_nfab" name="txtMoney" xy="282,528" size="155,67" fontSize="63" color="#ffffff" align="center" autoSize="none" text="18.8"/>
-    <component id="n6_nfab" name="btnClose" src="nfab4c" fileName="Buttons/Button2.xml" xy="506,325" size="50,50" aspect="true">
+    <graph id="n0_nfab" name="n0" xy="0,0" size="720,1280" alpha="0.8" type="rect" lineSize="0" fillColor="#ff333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n1_nfab" name="n1" src="jo5c7h" fileName="红包_slices/组 194@2x.png" xy="-1,249"/>
+    <text id="n2_nfab" name="txtTitle" xy="267,520" size="185,34" fontSize="30" color="#ffffff" align="center" text="恭喜获得红包">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n3_nfab" name="txtMoney" xy="237,580" size="245,101" fontSize="96" color="#ffffff" align="right" vAlign="middle" text="1.005">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n6_nfab" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,955" aspect="true">
       <Button title="X"/>
     </component>
-    <component id="n7_nfab" name="btnContact" src="g4b83z" fileName="Buttons/Button1.xml" xy="405,784" size="120,30">
-      <Button title="联系提现>>" titleFontSize="18"/>
+    <component id="n7_nfab" name="btnContact" src="nfab4c" fileName="Buttons/Button2.xml" xy="502,858" size="120,30" alpha="0.7">
+      <Button title="联系提现>>" titleColor="#ffffff" titleFontSize="18"/>
     </component>
+    <component id="n8_jo5c" name="btnDraw" src="jo5c7i" fileName="Buttons/ButtonDraw3.xml" xy="215,755"/>
+    <text id="n9_qa2m" name="txtTip" xy="207,690" size="311,34" fontSize="26" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="满20元可以提现"/>
+    <text id="n10_qa2m" name="txtTip" xy="484,634" size="35,34" fontSize="30" color="#ffffff" align="center" text="元">
+      <relation target="n3_nfab" sidePair="right-right,top-top"/>
+    </text>
+    <graph id="n11_qa2m" name="n11" xy="192,536" size="70,2" alpha="0.5" type="rect" lineSize="0">
+      <relation target="n2_nfab" sidePair="middle-middle,left-left"/>
+    </graph>
+    <graph id="n12_qa2m" name="n12" xy="457,536" size="70,2" alpha="0.5" type="rect" lineSize="0">
+      <relation target="n2_nfab" sidePair="middle-middle,right-right"/>
+    </graph>
   </displayList>
 </component>

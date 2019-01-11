@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
   <displayList>
-    <graph id="n46_fr5x" name="n46" xy="0,0" size="720,1280" lineSize="0" lineColor="#ff33ff00" fillColor="#ff333333" corner="20"/>
-    <graph id="n35_g4b8" name="n35" xy="210,494" size="300,150" type="rect" lineSize="0" lineColor="#ff33ff00" fillColor="#ff333333" corner="20"/>
-    <text id="n32_le83" name="txtTip" xy="210,542" size="300,54" font="SimHei" fontSize="43" color="#ffffff" align="center" autoSize="none" text="答错了！">
-      <relation target="n35_g4b8" sidePair="top-top"/>
-    </text>
+    <graph id="n51_olms" name="n51" xy="0,0" size="720,1280" alpha="0" type="rect" lineSize="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n47_olms" name="n47" xy="81,343" size="558,522" type="rect" lineSize="0" corner="16"/>
+    <image id="n48_olms" name="n48" src="olmsaa" fileName="答错_slices/圆角矩形 7 拷贝 2.png" xy="90,352"/>
+    <image id="n49_olms" name="n49" src="olmsab" fileName="答错_slices/组 194.png" xy="285,545"/>
+    <text id="n32_le83" name="txtTip" xy="110,423" size="500,54" font="SimHei" fontSize="48" color="#0084ff" align="center" autoSize="none" text="答错了！"/>
+    <text id="n50_olms" name="txtTip" xy="110,732" size="500,54" font="SimHei" fontSize="36" color="#363636" align="center" autoSize="none" text="再想一想~"/>
   </displayList>
-  <transition name="t0">
-    <item time="0" type="Alpha" target="n35_g4b8" tween="true" startValue="0" endValue="1" duration="6"/>
-    <item time="0" type="Alpha" target="n32_le83" tween="true" startValue="0" endValue="1" duration="6"/>
-    <item time="18" type="Alpha" target="n35_g4b8" tween="true" startValue="1" endValue="0" duration="6"/>
-    <item time="18" type="Alpha" target="n32_le83" tween="true" startValue="1" endValue="0" duration="6"/>
-  </transition>
 </component>

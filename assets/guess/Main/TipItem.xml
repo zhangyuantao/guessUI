@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="500,80">
+<component size="439,61">
   <displayList>
-    <graph id="n0_ka02" name="n0" xy="0,0" size="500,80" touchable="false" type="rect" lineSize="0" corner="20">
+    <graph id="n0_ka02" name="n0" xy="0,0" size="439,61" touchable="false" type="rect" lineSize="0" fillColor="#ffb0eced" corner="31">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_ka02" name="n1" xy="12,5" size="70,70" type="eclipse" lineSize="0" fillColor="#ff006699"/>
-    <text id="n2_ka02" name="txtId" xy="17,11" size="60,60" fontSize="64" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="1"/>
-    <text id="n3_ka02" name="txtDesc" xy="88,8" size="399,64" fontSize="35" color="#333333" align="center" vAlign="middle" autoSize="none" text="唐代著名诗人"/>
+    <graph id="n1_ka02" name="n1" xy="0,0" size="61,61" type="eclipse" lineSize="0" fillColor="#ff46b8fd" corner="31"/>
+    <text id="n2_ka02" name="txtId" xy="0,0" size="61,61" fontSize="36" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="1"/>
+    <text id="n3_ka02" name="txtDesc" xy="74,15" size="350,30" fontSize="26" color="#363636" align="center" vAlign="middle" autoSize="none" text="唐代著名诗人">
+      <relation target="n1_ka02" sidePair="left-left"/>
+    </text>
   </displayList>
 </component>

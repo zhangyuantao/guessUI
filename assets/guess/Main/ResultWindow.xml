@@ -1,24 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
   <displayList>
-    <graph id="n46_fr5x" name="n46" xy="0,0" size="720,1280" lineSize="0" lineColor="#ff33ff00" fillColor="#ff333333" corner="20"/>
-    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" alpha="0.2" type="rect" lineSize="0" fillColor="#ff000000"/>
-    <graph id="n35_g4b8" name="n35" xy="185,431" size="350,220" type="rect" lineSize="0" lineColor="#ff33ff00" fillColor="#ff333333" corner="20"/>
-    <text id="n32_le83" name="txtTip" xy="185,453" size="350,54" font="SimHei" fontSize="45" color="#ffffff" align="center" autoSize="none" text=" 恭喜你答对了！"/>
-    <component id="n40_yhsu" name="btnNext" src="g4b83z" fileName="Buttons/Button1.xml" xy="300,745" size="120,50">
+    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" alpha="0.8" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n35_g4b8" name="n35" xy="81,251" size="558,522" type="rect" lineSize="0" lineColor="#ff33ff00" corner="15"/>
+    <image id="n49_olms" name="n49" src="olmsaa" fileName="答错_slices/圆角矩形 7 拷贝 2.png" xy="90,260">
+      <relation target="n35_g4b8" sidePair="top-top"/>
+    </image>
+    <component id="n40_yhsu" name="btnNext" src="olmsai" fileName="Buttons/Button3.xml" xy="175,924">
       <relation target="n41_gv7h" sidePair="left-left,top-top"/>
-      <Button title="下一题" titleColor="#0066cc" titleFontSize="24"/>
+      <Button title="下一题" titleColor="#3b6bc2"/>
     </component>
-    <component id="n41_gv7h" name="btnInvite" src="g4b83z" fileName="Buttons/Button1.xml" xy="300,667" size="120,50">
-      <Button title="邀请有奖" titleColor="#0066cc" titleFontSize="24"/>
+    <component id="n41_gv7h" name="btnInvite" src="g4b83z" fileName="Buttons/Button1.xml" xy="175,808">
+      <Button title="邀请有奖"/>
     </component>
-    <text id="n42_gv7h" name="n1" xy="197,536" size="325,24" font="SimHei" fontSize="20" color="#ffffff" align="center" vAlign="middle" text="------------好友排行------------"/>
-    <component id="n43_gv7h" name="rankPre" src="gv7h48" fileName="Main/RankComp.xml" xy="265,568">
+    <component id="n43_gv7h" name="rankPre" src="gv7h48" fileName="Main/RankComp.xml" xy="176,626">
       <relation target="n44_gv7h" sidePair="left-left"/>
     </component>
-    <component id="n44_gv7h" name="rankMe" src="gv7h48" fileName="Main/RankComp.xml" xy="335,568"/>
-    <component id="n45_gv7h" name="rankNxt" src="gv7h48" fileName="Main/RankComp.xml" xy="405,568">
+    <component id="n44_gv7h" name="rankMe" src="gv7h48" fileName="Main/RankComp.xml" xy="322,626">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n45_gv7h" name="rankNxt" src="gv7h48" fileName="Main/RankComp.xml" xy="468,626">
       <relation target="n44_gv7h" sidePair="right-right"/>
     </component>
+    <text id="n50_olms" name="txtTitle2" xy="305,573" size="109,30" fontSize="26" color="#363636" align="center" text="好友排行">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <graph id="n51_olms" name="n51" xy="124,587" pivot="1,0" size="176,2" alpha="0.5" type="rect" lineSize="0" fillColor="#ffdcdcdc">
+      <relation target="n50_olms" sidePair="middle-middle,left-left"/>
+    </graph>
+    <graph id="n52_olms" name="n52" xy="419,587" size="176,2" type="rect" lineSize="0" fillColor="#ffdcdcdc">
+      <relation target="n50_olms" sidePair="middle-middle,right-right"/>
+    </graph>
+    <text id="n53_olms" name="txtTitle" xy="146,339" size="428,40" visible="false" fontSize="36" color="#363636" align="center" autoSize="none" text="恭喜您，过关了！">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <text id="n54_olms" name="txtGold" xy="285,463" size="149,52" fontSize="48" color="#0084ff" align="center" text="+0金币">
+      <relation target="n48_olms" sidePair="center-center,top-top"/>
+    </text>
+    <image id="n47_olms" name="n47" src="olmsae" fileName="答对_slices/组 194(1).png" xy="95,184"/>
+    <image id="n48_olms" name="n48" src="olmsag" fileName="答对_slices/组 194(3).png" xy="283,345"/>
+    <text id="n55_olms" name="txtTip" xy="277,525" size="165,20" fontSize="16" color="#363636" align="center" text="(已答对的题不再获得)">
+      <relation target="n54_olms" sidePair="center-center,top-top"/>
+    </text>
   </displayList>
 </component>

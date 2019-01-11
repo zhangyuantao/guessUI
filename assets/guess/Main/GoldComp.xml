@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="162,40">
+<component size="129,34">
+  <controller name="themCtrl" pages="0,,1," selected="1"/>
   <displayList>
-    <graph id="n40_ka02" name="n40" xy="0,0" size="162,40" touchable="false" type="rect" lineSize="0" fillColor="#ffcccccc" corner="20">
+    <graph id="n40_ka02" name="n40" xy="0,0" size="100,34" touchable="false" type="rect" lineSize="0" fillColor="#ff9f0d09" corner="20">
+      <gearColor controller="themCtrl" pages="1" values="#9f0d09" default="#a4d3fb"/>
       <relation target="" sidePair="width-width,height-height"/>
+      <relation target="n41_ka02" sidePair="width-width"/>
     </graph>
-    <text id="n41_ka02" name="txtGold" xy="9,6" size="144,29" fontSize="25" autoSize="none" text="金币：100"/>
+    <text id="n41_ka02" name="txtGold" xy="41,3" size="53,28" fontSize="24" color="#454545" text="1000">
+      <relation target="" sidePair="left-left"/>
+    </text>
+    <image id="n42_ns70" name="n42" src="ns704v" fileName="主页面_slices/金币@2x.png" xy="0,-4">
+      <relation target="n40_ka02" sidePair="left-left,middle-middle"/>
+    </image>
   </displayList>
 </component>

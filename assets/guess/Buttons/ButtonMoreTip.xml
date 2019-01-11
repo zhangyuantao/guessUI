@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="271,98" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_ns70" name="n4" src="ns7052" fileName="主页面_slices/按钮2@2x.png" xy="0,0"/>
+    <text id="n5_v3gz" name="n5" xy="26,27" size="219,44" font="ui://u9b31fxfv3gz6r" fontSize="16" letterSpacing="-5" text="我要更多提示"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>

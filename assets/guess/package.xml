@@ -12,15 +12,157 @@
     <component id="d3ko46" name="StageItem.xml" path="/Main/" exported="true"/>
     <component id="yhsu47" name="ResultWindow.xml" path="/Main/" exported="true"/>
     <component id="gv7h48" name="RankComp.xml" path="/Main/" exported="true"/>
-    <component id="gv7h49" name="WrongAnswerTip.xml" path="/Main/" exported="true"/>
     <component id="fr5x4a" name="WrongTip.xml" path="/Main/"/>
     <component id="nfab4b" name="RedBagWindow.xml" path="/Main/" exported="true"/>
     <component id="nfab4c" name="Button2.xml" path="/Buttons/"/>
     <component id="nfab4e" name="QuestionPanel.xml" path="/Main/" exported="true"/>
     <component id="bhgb4f" name="QuestionPanelDM.xml" path="/Main/" exported="true"/>
     <component id="bhgb4h" name="WordItemSmall.xml" path="/Main/" exported="true"/>
+    <image id="ns704p" name="关卡 拷贝 2@2x.png" path="/首页_slices/"/>
+    <image id="ns704q" name="分享@2x.png" path="/首页_slices/"/>
+    <image id="ns704r" name="开始@2x.png" path="/首页_slices/"/>
+    <image id="ns704s" name="排行@2x.png" path="/首页_slices/"/>
+    <image id="ns704t" name="文字@2x.png" path="/首页_slices/"/>
+    <image id="ns704u" name="转盘@2x.png" path="/首页_slices/"/>
+    <image id="ns704v" name="金币@2x.png" path="/主页面_slices/"/>
+    <image id="ns704w" name="关卡 拷贝 2@2x.png" path="/主页面_slices/"/>
+    <image id="ns704x" name="圆角矩形 3@2x.png" path="/主页面_slices/"/>
+    <image id="ns704y" name="圆角矩形 6 拷贝 4@2x.png" path="/主页面_slices/"/>
+    <image id="ns704z" name="圆角矩形 6 拷贝 6@2x.png" path="/主页面_slices/"/>
+    <image id="ns7050" name="圆角矩形 6@2x.png" path="/主页面_slices/"/>
+    <image id="ns7052" name="按钮2@2x.png" path="/主页面_slices/"/>
+    <image id="ns7053" name="排行@2x.png" path="/主页面_slices/"/>
+    <image id="ns7054" name="椭圆 846@2x.png" path="/主页面_slices/"/>
+    <image id="ns7055" name="红包@2x.png" path="/主页面_slices/"/>
+    <image id="ns7056" name="考朋友@2x.png" path="/主页面_slices/"/>
+    <component id="ns7057" name="ButtonStart.xml" path="/Buttons/"/>
+    <component id="ns7058" name="ButtonRank.xml" path="/Buttons/"/>
+    <component id="ns7059" name="ButtonStage.xml" path="/Buttons/"/>
+    <component id="ns705a" name="ButtonDraw.xml" path="/Buttons/"/>
+    <component id="ns705b" name="ButtonShare.xml" path="/Buttons/"/>
+    <component id="ns705c" name="ButtonRedbag.xml" path="/Buttons/"/>
+    <image id="ns705d" name="首页.jpg" path="/首页_slices/" scale="9grid" scale9grid="180,30,360,12" atlas="0"/>
+    <image id="ns705e" name="主页面.jpg" path="/主页面_slices/" scale="" atlas="0"/>
+    <component id="ns705f" name="ButtonRank2.xml" path="/Buttons/"/>
+    <component id="ns705g" name="ButtonStage2.xml" path="/Buttons/"/>
+    <component id="ns705h" name="ButtonShareFriend.xml" path="/Buttons/"/>
+    <component id="ns705i" name="ButtonMoreTip.xml" path="/Buttons/"/>
+    <component id="ns705j" name="ButtonGoldUnlock.xml" path="/Buttons/"/>
+    <image id="v3gz5m" name="首页@2x.png" path="/主页面_slices/"/>
+    <component id="v3gz5n" name="ButtonHome.xml" path="/Buttons/"/>
+    <image id="v3gz5o" name="中@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5p" name="了@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5q" name="优@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5r" name="喜@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5s" name="多@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5t" name="多边形 1 拷贝 3@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5u" name="始@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5v" name="学@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5w" name="对@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5x" name="小@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5y" name="币@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz5z" name="开@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz60" name="恭@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz61" name="您@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz62" name="戏@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz63" name="我@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz64" name="排@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz65" name="提@2x(1).png" path="/艺术字_slices/"/>
+    <image id="v3gz66" name="提@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz67" name="更@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz68" name="案@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz69" name="榜@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6a" name="游@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6b" name="现@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6c" name="生@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6d" name="示@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6e" name="等@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6f" name="答@2x(1).png" path="/艺术字_slices/"/>
+    <image id="v3gz6g" name="答@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6h" name="级@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6i" name="行@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6j" name="要@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6k" name="解@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6l" name="超@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6m" name="金@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6n" name="锁@2x.png" path="/艺术字_slices/"/>
+    <image id="v3gz6o" name="霸@2x.png" path="/艺术字_slices/"/>
+    <font id="v3gz6p" name="Font1.fnt" path="/艺术字_slices/" exported="true"/>
+    <font id="v3gz6r" name="Font2.fnt" path="/艺术字_slices/" exported="true"/>
+    <image id="v3gz6s" name="首页@2x(1).png" path="/主页面_slices/"/>
+    <image id="v3gz6t" name="关卡 拷贝 2@2x(1).png" path="/主页面_slices/"/>
+    <image id="v3gz6u" name="考朋友@2x(1).png" path="/主页面_slices/"/>
+    <image id="v3gz6v" name="排行@2x(1).png" path="/主页面_slices/"/>
+    <image id="v3gz6w" name="圆角矩形 25@2x.png" path="/转盘_slices/"/>
+    <image id="v3gz6x" name="组 161@2x.png" path="/转盘_slices/"/>
+    <image id="v3gz6y" name="轮盘@2x.png" path="/转盘_slices/"/>
+    <component id="v3gz6z" name="DrawWindow.xml" path="/Main/" exported="true"/>
+    <component id="v3gz70" name="ButtonDraw2.xml" path="/Buttons/"/>
+    <component id="v3gz71" name="Wheel.xml" path="/Main/"/>
+    <component id="v3gz72" name="Arrow.xml" path="/Main/"/>
+    <image id="jo5c73" name="关闭@2x.png" path="/关卡_slices/"/>
+    <image id="jo5c74" name="图层 16 拷贝 3@2x.png" path="/关卡_slices/"/>
+    <image id="jo5c75" name="形状 5 拷贝@2x.png" path="/关卡_slices/"/>
+    <image id="jo5c76" name="形状 5@2x.png" path="/关卡_slices/"/>
+    <image id="jo5c77" name="组 1 拷贝 2@2x.png" path="/关卡_slices/"/>
+    <image id="jo5c78" name="组 194@2x(1).png" path="/关卡_slices/"/>
+    <image id="jo5c79" name="组 194@2x(2).png" path="/关卡_slices/"/>
+    <image id="jo5c7b" name="组 194@2x.png" path="/关卡_slices/"/>
+    <component id="jo5c7c" name="ButtonClose.xml" path="/Buttons/"/>
+    <component id="jo5c7d" name="ButtonPrePage.xml" path="/Buttons/"/>
+    <component id="jo5c7e" name="ButtonNxtPage.xml" path="/Buttons/"/>
+    <image id="jo5c7f" name="弹窗标题.png" path="/关卡_slices/"/>
+    <image id="jo5c7g" name="圆角矩形 25@2x.png" path="/红包_slices/"/>
+    <image id="jo5c7h" name="组 194@2x.png" path="/红包_slices/"/>
+    <component id="jo5c7i" name="ButtonDraw3.xml" path="/Buttons/"/>
+    <image id="olms7x" name="logo.png" path="/元宵切图/"/>
+    <image id="olms7y" name="元宵2.jpg" path="/元宵切图/" scale="" atlas="0"/>
+    <image id="olms7z" name="元宵3.jpg" path="/元宵切图/" scale="" atlas="0"/>
+    <image id="olms80" name="元宵4.jpg" path="/元宵切图/"/>
+    <image id="olms81" name="元宵6.jpg" path="/元宵切图/"/>
+    <image id="olms82" name="关卡.png" path="/元宵切图/"/>
+    <image id="olms83" name="分享01.png" path="/元宵切图/"/>
+    <image id="olms84" name="分享02.png" path="/元宵切图/"/>
+    <image id="olms85" name="排行.png" path="/元宵切图/"/>
+    <image id="olms86" name="普通背景.png" path="/元宵切图/"/>
+    <image id="olms87" name="组 6.png" path="/元宵切图/"/>
+    <image id="olms88" name="考朋友.png" path="/元宵切图/"/>
+    <image id="olms89" name="首页.png" path="/元宵切图/"/>
+    <component id="olms8a" name="HomeBg.xml" path="/Main/"/>
+    <image id="olms8b" name="0.png" path="/艺术字_slices/"/>
+    <image id="olms8c" name="1.png" path="/艺术字_slices/"/>
+    <image id="olms8d" name="2.png" path="/艺术字_slices/"/>
+    <image id="olms8e" name="3.png" path="/艺术字_slices/"/>
+    <image id="olms8f" name="4.png" path="/艺术字_slices/"/>
+    <image id="olms8g" name="5.png" path="/艺术字_slices/"/>
+    <image id="olms8h" name="6.png" path="/艺术字_slices/"/>
+    <image id="olms8i" name="7.png" path="/艺术字_slices/"/>
+    <image id="olms8j" name="8.png" path="/艺术字_slices/"/>
+    <image id="olms8k" name="9.png" path="/艺术字_slices/"/>
+    <image id="olms9w" name="a8e53a79e83b042828e5ceef4305e8521166e0c771b39-v7iIxh.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olms9x" name="关卡 拷贝 2.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olms9y" name="圆角矩形 3.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olms9z" name="圆角矩形 6 拷贝 6.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olmsa0" name="按钮1.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olmsa1" name="按钮2.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olmsa2" name="排行.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olmsa3" name="椭圆 846.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olmsa4" name="红包.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olmsa5" name="组 6.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olmsa6" name="考朋友.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <image id="olmsa7" name="首页.png" path="/主页面_slices/mipmap-xhdpi/"/>
+    <font id="olmsa8" name="Font3.fnt" path="/艺术字_slices/" exported="true"/>
+    <image id="olmsa9" name="圆角矩形 25.png" path="/答错_slices/"/>
+    <image id="olmsaa" name="圆角矩形 7 拷贝 2.png" path="/答错_slices/"/>
+    <image id="olmsab" name="组 194.png" path="/答错_slices/"/>
+    <image id="olmsad" name="圆角矩形 25.png" path="/答对_slices/"/>
+    <image id="olmsae" name="组 194(1).png" path="/答对_slices/"/>
+    <image id="olmsaf" name="组 194(2).png" path="/答对_slices/"/>
+    <image id="olmsag" name="组 194(3).png" path="/答对_slices/"/>
+    <image id="olmsah" name="组 194(4).png" path="/答对_slices/"/>
+    <component id="olmsai" name="Button3.xml" path="/Buttons/"/>
   </resources>
   <publish name="guess" path="publish" maxAtlasSize="4096">
-    <atlas name="默认" index="0"/>
+    <atlas name="默认" compression="true" index="0"/>
   </publish>
 </packageDescription>

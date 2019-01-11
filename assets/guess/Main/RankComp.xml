@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="50,80">
+<component size="76,108">
   <displayList>
-    <text id="n41_ka02" name="n41" xy="0,46" size="49,34" fontSize="30" align="center" vAlign="middle" autoSize="none" text="15">
+    <text id="n41_ka02" name="n41" xy="13,74" size="49,34" fontSize="26" color="#363636" align="center" vAlign="middle" autoSize="none" text="15">
       <relation target="n42_ka02" sidePair="left-left"/>
     </text>
-    <graph id="n42_ka02" name="n42" xy="5,5" size="40,40" type="rect" lineSize="0" lineColor="#ff009999" fillColor="#ff006699">
+    <image id="n42_ka02" name="n42" src="olmsah" fileName="答对_slices/组 194(4).png" xy="2,0">
       <relation target="" sidePair="left-left"/>
-    </graph>
+    </image>
   </displayList>
 </component>

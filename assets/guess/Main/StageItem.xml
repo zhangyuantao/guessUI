@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="80,80">
+<component size="90,90">
+  <controller name="lockCtrl" pages="0,,1," selected="1"/>
+  <controller name="hasRedbagCtrl" pages="0,,1," selected="1"/>
   <displayList>
-    <graph id="n0_ka02" name="n0" xy="0,0" size="80,80" touchable="false" type="rect" lineSize="2" fillColor="#ffcccccc" corner="20">
+    <image id="n0_ka02" name="n0" src="jo5c79" fileName="关卡_slices/组 194@2x(2).png" xy="0,0" size="90,90">
+      <gearDisplay controller="lockCtrl" pages="0"/>
       <relation target="" sidePair="width-width,height-height"/>
-    </graph>
-    <text id="n1_ka02" name="txtLv" xy="0,0" size="80,80" fontSize="45" color="#0099cc" align="center" vAlign="middle" autoSize="none" text="200"/>
+    </image>
+    <image id="n3_jo5c" name="n3" src="jo5c78" fileName="关卡_slices/组 194@2x(1).png" xy="0,0">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+    </image>
+    <text id="n1_ka02" name="txtLv" xy="-5,0" size="100,90" font="ui://u9b31fxfolmsa8" fontSize="46" color="#ffffff" align="center" vAlign="middle" letterSpacing="-5" autoSize="none" text="888"/>
+    <image id="n4_jo5c" name="imgRedbag" src="jo5c77" fileName="关卡_slices/组 1 拷贝 2@2x.png" xy="61,54">
+      <gearDisplay controller="hasRedbagCtrl" pages="1"/>
+    </image>
+    <image id="n5_jo5c" name="n5" src="jo5c74" fileName="关卡_slices/图层 16 拷贝 3@2x.png" xy="26,20">
+      <gearDisplay controller="lockCtrl" pages="1"/>
+    </image>
   </displayList>
 </component>
