@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="76,108">
+<component size="71,108">
   <displayList>
-    <text id="n41_ka02" name="n41" xy="13,74" size="49,34" fontSize="26" color="#363636" align="center" vAlign="middle" autoSize="none" text="15">
-      <relation target="n42_ka02" sidePair="left-left"/>
-    </text>
-    <image id="n42_ka02" name="n42" src="olmsah" fileName="答对_slices/组 194(4).png" xy="2,0">
-      <relation target="" sidePair="left-left"/>
-    </image>
+    <component id="n42_ka02" name="icon" src="po6bao" fileName="Main/Avatar.xml" xy="0,0" size="71,71" aspect="true"/>
+    <text id="n41_ka02" name="n41" xy="11,74" size="49,34" fontSize="26" color="#363636" align="center" vAlign="middle" autoSize="none" text="15"/>
   </displayList>
 </component>

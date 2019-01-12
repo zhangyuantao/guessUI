@@ -128,7 +128,6 @@
     <image id="olms87" name="组 6.png" path="/元宵切图/"/>
     <image id="olms88" name="考朋友.png" path="/元宵切图/"/>
     <image id="olms89" name="首页.png" path="/元宵切图/"/>
-    <component id="olms8a" name="HomeBg.xml" path="/Main/"/>
     <image id="olms8b" name="0.png" path="/艺术字_slices/"/>
     <image id="olms8c" name="1.png" path="/艺术字_slices/"/>
     <image id="olms8d" name="2.png" path="/艺术字_slices/"/>
@@ -161,6 +160,13 @@
     <image id="olmsag" name="组 194(3).png" path="/答对_slices/"/>
     <image id="olmsah" name="组 194(4).png" path="/答对_slices/"/>
     <component id="olmsai" name="Button3.xml" path="/Buttons/"/>
+    <image id="po6baj" name="首页底.jpg" path="/首页_slices/"/>
+    <image id="po6bak" name="组 172@2x.png" path="/金币不足_slices/"/>
+    <image id="po6bal" name="组 194@2x.png" path="/提现_slices/"/>
+    <component id="po6bam" name="LackGoldWindow.xml" path="/Main/" exported="true"/>
+    <component id="po6ban" name="CashWindow.xml" path="/Main/" exported="true"/>
+    <component id="po6bao" name="Avatar.xml" path="/Main/"/>
+    <component id="po6bap" name="FirstShareGroupWindow.xml" path="/Main/" exported="true"/>
   </resources>
   <publish name="guess" path="publish" maxAtlasSize="4096">
     <atlas name="默认" compression="true" index="0"/>

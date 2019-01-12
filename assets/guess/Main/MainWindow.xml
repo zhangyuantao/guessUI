@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
   <displayList>
-    <component id="n41_ns70" name="bg" src="olms8a" fileName="Main/HomeBg.xml" xy="0,0"/>
+    <image id="n41_ns70" name="bg" src="olms7y" fileName="元宵切图/元宵2.jpg" xy="0,0"/>
     <component id="n34_g4b8" name="btnStart" src="ns7057" fileName="Buttons/ButtonStart.xml" xy="172,673">
       <Button title="开始游戏" titleColor="#0066cc" titleFontSize="40"/>
     </component>

@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="78,78" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
-  <controller name="themCtrl" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n4_ns70" name="n4" src="ns704w" fileName="主页面_slices/关卡 拷贝 2@2x.png" xy="0,0">
-      <gearDisplay controller="themCtrl" pages="0"/>
-    </image>
-    <image id="n5_v3gz" name="n5" src="v3gz6t" fileName="主页面_slices/关卡 拷贝 2@2x(1).png" xy="0,0">
-      <gearDisplay controller="themCtrl" pages="1"/>
-    </image>
+    <image id="n5_v3gz" name="n5" src="v3gz6t" fileName="主页面_slices/关卡 拷贝 2@2x(1).png" xy="0,0"/>
   </displayList>
   <Button downEffect="dark" downEffectValue="0.80"/>
 </component>

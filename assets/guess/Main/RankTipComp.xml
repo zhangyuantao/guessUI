@@ -4,11 +4,11 @@
     <graph id="n40_ka02" name="n40" xy="0,0" size="150,50" alpha="0.36" touchable="false" type="rect" lineSize="0" fillColor="#ff000000" corner="25">
       <relation target="n41_ka02" sidePair="width-width"/>
     </graph>
-    <text id="n41_ka02" name="n41" xy="49,10" size="31,30" fontSize="26" color="#ffffff" vAlign="middle" text="15">
+    <text id="n41_ka02" name="n41" xy="46,10" size="31,30" fontSize="26" color="#ffffff" vAlign="middle" text="15">
       <relation target="n42_ka02" sidePair="left-left"/>
     </text>
-    <image id="n42_ka02" name="n42" src="ns7054" fileName="主页面_slices/椭圆 846@2x.png" xy="6,4">
+    <component id="n42_ka02" name="n42" src="po6bao" fileName="Main/Avatar.xml" xy="3,3" size="45,45" aspect="true">
       <relation target="" sidePair="left-left"/>
-    </image>
+    </component>
   </displayList>
 </component>
