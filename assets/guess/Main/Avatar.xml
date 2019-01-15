@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="0,0" mask="n0_yx15">
+  <displayList>
+    <graph id="n0_yx15" name="n0" xy="0,0" pivot="0.5,0.5" anchor="true" size="70,70" aspect="true" type="eclipse" lineSize="0"/>
+    <loader id="n1_yx15" name="n1" xy="0,0" pivot="0.5,0.5" anchor="true" size="71,71" url="ui://u9b31fxfolmsah"/>
+  </displayList>
+</component>

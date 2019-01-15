@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n51_olms" name="n51" xy="0,0" size="720,1280" alpha="0" type="rect" lineSize="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n47_olms" name="n47" xy="81,343" size="558,253" type="rect" lineSize="0" corner="16"/>
+    <image id="n48_olms" name="n48" src="olmsaa" fileName="答错_slices/圆角矩形 7 拷贝 2.png" xy="90,347" size="539,244"/>
+    <text id="n50_olms" name="txtTip" xy="110,421" size="500,139" font="SimHei" fontSize="36" color="#363636" align="center" vAlign="middle" autoSize="none" text="再想一想~"/>
+    <image id="n52_yx15" name="n52" src="po6bal" fileName="提现_slices/组 194@2x.png" xy="95,270"/>
+    <component id="n53_yx15" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,639"/>
+  </displayList>
+</component>

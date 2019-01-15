@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="150,50">
   <displayList>
-    <graph id="n40_ka02" name="n40" xy="0,0" size="150,50" alpha="0.36" touchable="false" type="rect" lineSize="0" fillColor="#ff000000" corner="25">
-      <relation target="n41_ka02" sidePair="width-width"/>
-    </graph>
-    <text id="n41_ka02" name="n41" xy="46,10" size="31,30" fontSize="26" color="#ffffff" vAlign="middle" text="15">
+    <image id="n40_ka02" name="n40" src="yx15ar" fileName="n40.png" xy="0,0"/>
+    <text id="n41_ka02" name="n41" xy="51,10" size="31,30" fontSize="26" color="#ffffff" vAlign="middle" text="15">
       <relation target="n42_ka02" sidePair="left-left"/>
     </text>
-    <component id="n42_ka02" name="n42" src="po6bao" fileName="Main/Avatar.xml" xy="3,3" size="45,45" aspect="true">
+    <component id="n42_ka02" name="n42" src="yx15aq" fileName="Main/Avatar.xml" xy="25,25" aspect="true" scale="0.64,0.64">
       <relation target="" sidePair="left-left"/>
     </component>
   </displayList>
