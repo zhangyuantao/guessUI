@@ -11,7 +11,7 @@
       <gearDisplay controller="themCtrl" pages="0"/>
       <relation target="" sidePair="center-center,top-top"/>
     </component>
-    <component id="n36_g4b8" name="btnStart" src="ns705f" fileName="Buttons/ButtonRank2.xml" xy="613,27">
+    <component id="n36_g4b8" name="btnRank" src="ns705f" fileName="Buttons/ButtonRank2.xml" xy="613,27">
       <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
     </component>
     <component id="n39_g4b8" name="btnBack" src="v3gz5n" fileName="Buttons/ButtonHome.xml" xy="29,27">

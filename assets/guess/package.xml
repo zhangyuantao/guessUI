@@ -168,6 +168,13 @@
     <component id="yx15au" name="LackGoldWindow.xml" path="/Main/" exported="true"/>
     <component id="yx15av" name="FirstShareGroupWindow.xml" path="/Main/" exported="true"/>
     <component id="yx15aw" name="ButtonStart.xml" path="/Buttons/"/>
+    <image id="8q33b4" name="icon.png" path="/排行榜_slices/"/>
+    <image id="8q33b5" name="panel.png" path="/排行榜_slices/"/>
+    <image id="8q33b6" name="rankingtitle.png" path="/排行榜_slices/"/>
+    <image id="8q33b7" name="star.png" path="/排行榜_slices/"/>
+    <image id="8q33b8" name="top2.png" path="/排行榜_slices/"/>
+    <image id="8q33b9" name="top3.png" path="/排行榜_slices/"/>
+    <image id="8q33ba" name="top4.png" path="/排行榜_slices/"/>
   </resources>
   <publish name="guess" path="publish" maxAtlasSize="4096">
     <atlas name="默认" compression="true" index="0"/>

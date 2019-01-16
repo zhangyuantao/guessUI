@@ -25,5 +25,6 @@
     <component id="n42_yx15" name="btnStart" src="yx15aw" fileName="Buttons/ButtonStart.xml" xy="172,679">
       <relation target="" sidePair="top-top"/>
     </component>
+    <component id="n44_8q33" name="btnCloseRank" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,1124" visible="false"/>
   </displayList>
 </component>
