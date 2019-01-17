@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <image id="n41_ns70" name="bg" src="pn39bb" fileName="元宵切图/背景.jpg" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n42_pn39" name="n42" src="pn39bc" fileName="元宵切图/灯笼.png" xy="0,0"/>
+    <image id="n43_pn39" name="n43" src="pn39bd" fileName="元宵切图/海浪.png" xy="0,1155">
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <image id="n44_pn39" name="n44" src="pn39be" fileName="元宵切图/祥云.png" xy="0,528">
+      <relation target="n46_pn39" sidePair="top-top"/>
+    </image>
+    <image id="n45_pn39" name="n45" src="pn39bf" fileName="元宵切图/元宝.png" xy="0,882">
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <image id="n46_pn39" name="n46" src="pn39bg" fileName="元宵切图/字体.png" xy="0,172">
+      <relation target="" sidePair="middle-middle"/>
+    </image>
+  </displayList>
+</component>

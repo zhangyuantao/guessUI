@@ -40,7 +40,6 @@
     <component id="ns705a" name="ButtonDraw.xml" path="/Buttons/"/>
     <component id="ns705b" name="ButtonShare.xml" path="/Buttons/"/>
     <component id="ns705c" name="ButtonRedbag.xml" path="/Buttons/"/>
-    <image id="ns705d" name="首页.jpg" path="/首页_slices/" scale="9grid" scale9grid="180,30,360,12" atlas="0"/>
     <image id="ns705e" name="主页面.jpg" path="/主页面_slices/" scale="" atlas="0"/>
     <component id="ns705f" name="ButtonRank2.xml" path="/Buttons/"/>
     <component id="ns705g" name="ButtonStage2.xml" path="/Buttons/"/>
@@ -115,10 +114,6 @@
     <image id="jo5c7h" name="组 194@2x.png" path="/红包_slices/"/>
     <component id="jo5c7i" name="ButtonDraw3.xml" path="/Buttons/"/>
     <image id="olms7x" name="logo.png" path="/元宵切图/"/>
-    <image id="olms7y" name="元宵2.jpg" path="/元宵切图/" scale="" atlas="0"/>
-    <image id="olms7z" name="元宵3.jpg" path="/元宵切图/" scale="" atlas="0"/>
-    <image id="olms80" name="元宵4.jpg" path="/元宵切图/"/>
-    <image id="olms81" name="元宵6.jpg" path="/元宵切图/"/>
     <image id="olms82" name="关卡.png" path="/元宵切图/"/>
     <image id="olms83" name="分享01.png" path="/元宵切图/"/>
     <image id="olms84" name="分享02.png" path="/元宵切图/"/>
@@ -137,18 +132,6 @@
     <image id="olms8i" name="7.png" path="/艺术字_slices/"/>
     <image id="olms8j" name="8.png" path="/艺术字_slices/"/>
     <image id="olms8k" name="9.png" path="/艺术字_slices/"/>
-    <image id="olms9w" name="a8e53a79e83b042828e5ceef4305e8521166e0c771b39-v7iIxh.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olms9x" name="关卡 拷贝 2.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olms9y" name="圆角矩形 3.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olms9z" name="圆角矩形 6 拷贝 6.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olmsa0" name="按钮1.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olmsa1" name="按钮2.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olmsa2" name="排行.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olmsa3" name="椭圆 846.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olmsa4" name="红包.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olmsa5" name="组 6.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olmsa6" name="考朋友.png" path="/主页面_slices/mipmap-xhdpi/"/>
-    <image id="olmsa7" name="首页.png" path="/主页面_slices/mipmap-xhdpi/"/>
     <font id="olmsa8" name="Font3.fnt" path="/艺术字_slices/" exported="true"/>
     <image id="olmsa9" name="圆角矩形 25.png" path="/答错_slices/"/>
     <image id="olmsaa" name="圆角矩形 7 拷贝 2.png" path="/答错_slices/"/>
@@ -159,7 +142,6 @@
     <image id="olmsag" name="组 194(3).png" path="/答对_slices/"/>
     <image id="olmsah" name="组 194(4).png" path="/答对_slices/"/>
     <component id="olmsai" name="ButtonBlue.xml" path="/Buttons/"/>
-    <image id="po6baj" name="首页底.jpg" path="/首页_slices/"/>
     <image id="po6bak" name="组 172@2x.png" path="/金币不足_slices/"/>
     <image id="po6bal" name="组 194@2x.png" path="/提现_slices/"/>
     <component id="yx15aq" name="Avatar.xml" path="/Main/"/>
@@ -175,6 +157,18 @@
     <image id="8q33b8" name="top2.png" path="/排行榜_slices/"/>
     <image id="8q33b9" name="top3.png" path="/排行榜_slices/"/>
     <image id="8q33ba" name="top4.png" path="/排行榜_slices/"/>
+    <image id="pn39bb" name="背景.jpg" path="/元宵切图/" scale="tile"/>
+    <image id="pn39bc" name="灯笼.png" path="/元宵切图/"/>
+    <image id="pn39bd" name="海浪.png" path="/元宵切图/"/>
+    <image id="pn39be" name="祥云.png" path="/元宵切图/"/>
+    <image id="pn39bf" name="元宝.png" path="/元宵切图/"/>
+    <image id="pn39bg" name="字体.png" path="/元宵切图/"/>
+    <component id="pn39bh" name="Background.xml" path="/Main/"/>
+    <component id="pn39bi" name="Background2.xml" path="/Main/"/>
+    <image id="pn39bj" name="背景.png" path="/首页_slices/" scale="9grid" scale9grid="0,1260,720,11"/>
+    <image id="pn39bk" name="前景.png" path="/首页_slices/"/>
+    <image id="pn39bl" name="文字.png" path="/首页_slices/"/>
+    <image id="pn39bm" name="中景.png" path="/首页_slices/"/>
   </resources>
   <publish name="guess" path="publish" maxAtlasSize="4096">
     <atlas name="默认" compression="true" index="0"/>

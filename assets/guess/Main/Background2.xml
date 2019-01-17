@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <image id="n51_pn39" name="n51" src="pn39bj" fileName="首页_slices/背景.png" xy="0,0" size="720,1280">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n52_pn39" name="n52" src="pn39bm" fileName="首页_slices/中景.png" xy="0,168">
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <image id="n49_pn39" name="n49" src="pn39bk" fileName="首页_slices/前景.png" xy="0,941">
+      <relation target="" sidePair="bottom-bottom"/>
+    </image>
+    <image id="n50_pn39" name="n50" src="pn39bl" fileName="首页_slices/文字.png" xy="0,119">
+      <relation target="" sidePair="middle-middle"/>
+    </image>
+  </displayList>
+</component>

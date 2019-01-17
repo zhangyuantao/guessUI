@@ -7,8 +7,8 @@
     <graph id="n47_olms" name="n47" xy="81,251" size="558,522" type="rect" lineSize="0" corner="16"/>
     <image id="n48_olms" name="n48" src="olmsaa" fileName="答错_slices/圆角矩形 7 拷贝 2.png" xy="90,259"/>
     <image id="n49_olms" name="n49" src="po6bak" fileName="金币不足_slices/组 172@2x.png" xy="285,405"/>
-    <text id="n32_le83" name="txtTip" xy="110,313" size="500,54" font="SimHei" fontSize="48" color="#0084ff" align="center" autoSize="none" text="金币不足！"/>
-    <text id="n50_olms" name="txtGold" xy="110,592" size="500,34" font="SimHei" fontSize="36" color="#363636" align="center" autoSize="none" text="再想一想~"/>
+    <text id="n32_le83" name="txt" xy="110,313" size="500,54" font="SimHei" fontSize="48" color="#0084ff" align="center" autoSize="none" text="金币不足！"/>
+    <text id="n50_olms" name="txtTip" xy="110,592" size="500,34" font="SimHei" fontSize="36" color="#363636" align="center" autoSize="none" text="再想一想~"/>
     <component id="n52_yx15" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,846"/>
     <component id="n54_yx15" name="btnTask" src="g4b83z" fileName="Buttons/ButtonYellow.xml" xy="175,644">
       <Button title="完成任务"/>
