@@ -4,21 +4,30 @@
     <graph id="n51_olms" name="n51" xy="0,0" size="720,1280" alpha="0.8" type="rect" lineSize="0" fillColor="#ff000000">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n47_olms" name="n47" xy="81,251" size="558,522" type="rect" lineSize="0" corner="16"/>
-    <image id="n48_olms" name="n48" src="olmsaa" fileName="答错_slices/圆角矩形 7 拷贝 2.png" xy="90,259"/>
-    <image id="n49_olms" name="n49" src="olmsag" fileName="答对_slices/组 194(3).png" xy="285,402"/>
-    <text id="n32_le83" name="txtGold" xy="321,519" size="77,52" font="SimHei" fontSize="48" color="#0084ff" align="center" text="+10">
+    <graph id="n47_olms" name="n47" xy="81,251" size="558,522" type="rect" lineSize="0" corner="16">
+      <relation target="" sidePair="middle-middle"/>
+    </graph>
+    <image id="n48_olms" name="n48" src="olmsaa" fileName="答错_slices/圆角矩形 7 拷贝 2.png" xy="90,259">
+      <relation target="" sidePair="middle-middle"/>
+    </image>
+    <component id="n52_yx15" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,846">
+      <relation target="n56_k76z" sidePair="top-top"/>
+    </component>
+    <image id="n49_olms" name="n49" src="olmsag" fileName="答对_slices/组 194(3).png" xy="285,402" group="n56_k76z"/>
+    <text id="n32_le83" name="txtGold" xy="321,519" size="77,52" group="n56_k76z" font="SimHei" fontSize="48" color="#0084ff" align="center" text="+10">
       <relation target="n49_olms" sidePair="center-center,top-top"/>
     </text>
-    <text id="n50_olms" name="txtTip" xy="267,716" size="185,24" font="SimHei" fontSize="20" color="#363636" align="center" text="(每个用户一次机会)">
+    <text id="n50_olms" name="txtTip" xy="267,716" size="185,24" group="n56_k76z" font="SimHei" fontSize="20" color="#363636" align="center" text="(每个用户一次机会)">
       <relation target="n54_yx15" sidePair="top-top"/>
     </text>
-    <component id="n52_yx15" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,846"/>
-    <component id="n54_yx15" name="btnShare" src="g4b83z" fileName="Buttons/ButtonYellow.xml" xy="175,620">
+    <component id="n54_yx15" name="btnShare" src="g4b83z" fileName="Buttons/ButtonYellow.xml" xy="175,620" group="n56_k76z">
       <Button title="分享领取"/>
     </component>
-    <text id="n55_yx15" name="txtTitle" xy="120,302" size="480,52" font="SimHei" fontSize="48" color="#0084ff" align="center" text="分享到群即可额外获得">
+    <text id="n55_yx15" name="txtTitle" xy="120,302" size="485,52" group="n56_k76z" font="SimHei" fontSize="48" color="#0084ff" align="center" text="分享到群即可额外获得">
       <relation target="" sidePair="center-center"/>
     </text>
+    <group id="n56_k76z" name="n56" xy="120,302" size="485,438" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
   </displayList>
 </component>

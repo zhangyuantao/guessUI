@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="83,83">
   <displayList>
-    <graph id="n3_olms" name="n3" xy="0,0" size="83,83" touchable="false" type="rect" lineSize="2" lineColor="#ff9f0d09" corner="16">
+    <graph id="n3_olms" name="n3" xy="0,0" size="83,83" touchable="false" type="rect" lineSize="3" lineColor="#ff9f0d09" corner="16">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <graph id="n2_bhgb" name="color" xy="0,0" size="83,83" alpha="0" touchable="false" type="rect" lineSize="0" lineColor="#ff00ff33" fillColor="#ffffb600" corner="16">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1_ka02" name="txtChar" xy="0,0" size="83,83" alpha="0" fontSize="46" color="#333333" align="center" vAlign="middle" autoSize="none" text="李"/>
+    <text id="n1_ka02" name="txtChar" xy="0,3" size="83,83" alpha="0" fontSize="46" color="#333333" align="center" vAlign="middle" autoSize="none" text="李"/>
   </displayList>
 </component>

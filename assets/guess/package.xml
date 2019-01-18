@@ -28,7 +28,6 @@
     <image id="ns704w" name="关卡 拷贝 2@2x.png" path="/主页面_slices/"/>
     <image id="ns704x" name="圆角矩形 3@2x.png" path="/主页面_slices/"/>
     <image id="ns704y" name="圆角矩形 6 拷贝 4@2x.png" path="/主页面_slices/"/>
-    <image id="ns704z" name="圆角矩形 6 拷贝 6@2x.png" path="/主页面_slices/"/>
     <image id="ns7050" name="圆角矩形 6@2x.png" path="/主页面_slices/"/>
     <image id="ns7052" name="按钮2@2x.png" path="/主页面_slices/"/>
     <image id="ns7053" name="排行@2x.png" path="/主页面_slices/"/>
@@ -119,7 +118,6 @@
     <image id="olms84" name="分享02.png" path="/元宵切图/"/>
     <image id="olms85" name="排行.png" path="/元宵切图/"/>
     <image id="olms86" name="普通背景.png" path="/元宵切图/"/>
-    <image id="olms87" name="组 6.png" path="/元宵切图/"/>
     <image id="olms88" name="考朋友.png" path="/元宵切图/"/>
     <image id="olms89" name="首页.png" path="/元宵切图/"/>
     <image id="olms8b" name="0.png" path="/艺术字_slices/"/>
@@ -157,7 +155,7 @@
     <image id="8q33b8" name="top2.png" path="/排行榜_slices/"/>
     <image id="8q33b9" name="top3.png" path="/排行榜_slices/"/>
     <image id="8q33ba" name="top4.png" path="/排行榜_slices/"/>
-    <image id="pn39bb" name="背景.jpg" path="/元宵切图/" scale="tile"/>
+    <image id="pn39bb" name="背景.jpg" path="/元宵切图/" scale="tile" duplicatePadding="true"/>
     <image id="pn39bc" name="灯笼.png" path="/元宵切图/"/>
     <image id="pn39bd" name="海浪.png" path="/元宵切图/"/>
     <image id="pn39be" name="祥云.png" path="/元宵切图/"/>
@@ -169,8 +167,9 @@
     <image id="pn39bk" name="前景.png" path="/首页_slices/"/>
     <image id="pn39bl" name="文字.png" path="/首页_slices/"/>
     <image id="pn39bm" name="中景.png" path="/首页_slices/"/>
+    <image id="k76zbn" name="组 6@2x.png" path="/元宵切图/"/>
   </resources>
-  <publish name="guess" path="publish" maxAtlasSize="4096">
+  <publish name="guess" path="publish">
     <atlas name="默认" compression="true" index="0"/>
   </publish>
 </packageDescription>

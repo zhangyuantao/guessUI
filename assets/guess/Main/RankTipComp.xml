@@ -2,7 +2,7 @@
 <component size="150,50">
   <displayList>
     <image id="n40_ka02" name="n40" src="yx15ar" fileName="n40.png" xy="0,0"/>
-    <text id="n41_ka02" name="n41" xy="51,10" size="31,30" fontSize="26" color="#ffffff" vAlign="middle" text="15">
+    <text id="n41_ka02" name="n41" xy="51,10" size="31,30" fontSize="26" color="#ffffff" vAlign="bottom" text="15">
       <relation target="n42_ka02" sidePair="left-left"/>
     </text>
     <component id="n42_ka02" name="n42" src="yx15aq" fileName="Main/Avatar.xml" xy="25,25" aspect="true" scale="0.64,0.64">

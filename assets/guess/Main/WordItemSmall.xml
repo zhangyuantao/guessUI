@@ -7,6 +7,6 @@
     <graph id="n2_bhgb" name="color" xy="0,0" size="70,70" alpha="0" touchable="false" type="rect" lineSize="0" lineColor="#ff00ff33" fillColor="#ffffb600" corner="12">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n1_ka02" name="txtChar" xy="0,0" size="70,70" fontSize="46" color="#333333" align="center" vAlign="middle" autoSize="none" text="李"/>
+    <text id="n1_ka02" name="txtChar" xy="0,3" size="70,70" fontSize="46" color="#333333" align="center" vAlign="middle" autoSize="none" text="李"/>
   </displayList>
 </component>

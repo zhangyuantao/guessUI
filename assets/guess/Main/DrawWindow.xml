@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
   <displayList>
-    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" alpha="0.8" type="rect" lineSize="0" fillColor="#ff333333">
+    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" alpha="0.8" type="rect" lineSize="0" fillColor="#ff000000">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <component id="n67_v3gz" name="wheel" src="v3gz71" fileName="Main/Wheel.xml" xy="360,500" rotation="364.1">
@@ -11,6 +11,7 @@
       <relation target="n67_v3gz" sidePair="top-top"/>
     </component>
     <component id="n70_v3gz" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="586,196">
+      <relation target="" sidePair="middle-middle"/>
       <Button title="X"/>
     </component>
     <component id="n71_v3gz" name="n71" src="v3gz72" fileName="Main/Arrow.xml" xy="360,500">

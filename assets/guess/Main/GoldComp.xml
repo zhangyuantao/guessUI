@@ -5,7 +5,7 @@
       <relation target="" sidePair="width-width,height-height"/>
       <relation target="n41_ka02" sidePair="width-width"/>
     </graph>
-    <text id="n41_ka02" name="txtGold" xy="45,3" size="67,28" fontSize="24" color="#ffffff" vAlign="middle" text="10000">
+    <text id="n41_ka02" name="txtGold" xy="45,4" size="65,28" fontSize="24" color="#ffffff" vAlign="bottom" text="10000">
       <relation target="" sidePair="left-left"/>
     </text>
     <image id="n42_ns70" name="n42" src="ns704v" fileName="主页面_slices/金币@2x.png" xy="0,-4">
