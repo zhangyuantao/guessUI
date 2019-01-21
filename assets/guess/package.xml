@@ -92,7 +92,7 @@
     <image id="v3gz6v" name="排行@2x(1).png" path="/主页面_slices/"/>
     <image id="v3gz6w" name="圆角矩形 25@2x.png" path="/转盘_slices/"/>
     <image id="v3gz6x" name="组 161@2x.png" path="/转盘_slices/"/>
-    <image id="v3gz6y" name="轮盘@2x.png" path="/转盘_slices/"/>
+    <image id="v3gz6y" name="轮盘@2x.png" path="/转盘_slices/" scale="" atlas="1"/>
     <component id="v3gz6z" name="DrawWindow.xml" path="/Main/" exported="true"/>
     <component id="v3gz70" name="ButtonDraw2.xml" path="/Buttons/"/>
     <component id="v3gz71" name="Wheel.xml" path="/Main/"/>
@@ -104,13 +104,12 @@
     <image id="jo5c77" name="组 1 拷贝 2@2x.png" path="/关卡_slices/"/>
     <image id="jo5c78" name="组 194@2x(1).png" path="/关卡_slices/"/>
     <image id="jo5c79" name="组 194@2x(2).png" path="/关卡_slices/"/>
-    <image id="jo5c7b" name="组 194@2x.png" path="/关卡_slices/"/>
     <component id="jo5c7c" name="ButtonClose.xml" path="/Buttons/"/>
     <component id="jo5c7d" name="ButtonPrePage.xml" path="/Buttons/"/>
     <component id="jo5c7e" name="ButtonNxtPage.xml" path="/Buttons/"/>
     <image id="jo5c7f" name="弹窗标题.png" path="/关卡_slices/"/>
     <image id="jo5c7g" name="圆角矩形 25@2x.png" path="/红包_slices/"/>
-    <image id="jo5c7h" name="组 194@2x.png" path="/红包_slices/"/>
+    <image id="jo5c7h" name="组 194@2x.png" path="/红包_slices/" scale="" atlas="1"/>
     <component id="jo5c7i" name="ButtonDraw3.xml" path="/Buttons/"/>
     <image id="olms7x" name="logo.png" path="/元宵切图/"/>
     <image id="olms82" name="关卡.png" path="/元宵切图/"/>
@@ -132,7 +131,6 @@
     <image id="olms8k" name="9.png" path="/艺术字_slices/"/>
     <font id="olmsa8" name="Font3.fnt" path="/艺术字_slices/" exported="true"/>
     <image id="olmsa9" name="圆角矩形 25.png" path="/答错_slices/"/>
-    <image id="olmsaa" name="圆角矩形 7 拷贝 2.png" path="/答错_slices/"/>
     <image id="olmsab" name="组 194.png" path="/答错_slices/"/>
     <image id="olmsad" name="圆角矩形 25.png" path="/答对_slices/"/>
     <image id="olmsae" name="组 194(1).png" path="/答对_slices/"/>
@@ -155,21 +153,24 @@
     <image id="8q33b8" name="top2.png" path="/排行榜_slices/"/>
     <image id="8q33b9" name="top3.png" path="/排行榜_slices/"/>
     <image id="8q33ba" name="top4.png" path="/排行榜_slices/"/>
-    <image id="pn39bb" name="背景.jpg" path="/元宵切图/" scale="tile" duplicatePadding="true"/>
-    <image id="pn39bc" name="灯笼.png" path="/元宵切图/"/>
-    <image id="pn39bd" name="海浪.png" path="/元宵切图/"/>
-    <image id="pn39be" name="祥云.png" path="/元宵切图/"/>
-    <image id="pn39bf" name="元宝.png" path="/元宵切图/"/>
-    <image id="pn39bg" name="字体.png" path="/元宵切图/"/>
+    <image id="pn39bb" name="背景.jpg" path="/元宵切图/" scale="tile" atlas="1" duplicatePadding="true"/>
+    <image id="pn39bc" name="灯笼.png" path="/元宵切图/" scale="" atlas="1"/>
+    <image id="pn39bd" name="海浪.png" path="/元宵切图/" scale="" atlas="1"/>
+    <image id="pn39be" name="祥云.png" path="/元宵切图/" scale="" atlas="1"/>
+    <image id="pn39bf" name="元宝.png" path="/元宵切图/" scale="" atlas="1"/>
+    <image id="pn39bg" name="字体.png" path="/元宵切图/" scale="" atlas="1"/>
     <component id="pn39bh" name="Background.xml" path="/Main/"/>
     <component id="pn39bi" name="Background2.xml" path="/Main/"/>
     <image id="pn39bj" name="背景.png" path="/首页_slices/" scale="9grid" scale9grid="0,1260,720,11"/>
     <image id="pn39bk" name="前景.png" path="/首页_slices/"/>
     <image id="pn39bl" name="文字.png" path="/首页_slices/"/>
     <image id="pn39bm" name="中景.png" path="/首页_slices/"/>
-    <image id="k76zbn" name="组 6@2x.png" path="/元宵切图/"/>
+    <image id="ruukbo" name="猜猜_边框.png" path="/" scale="9grid" scale9grid="19,218,4,6"/>
+    <image id="ruukbp" name="元宵_题目框.png" path="/元宵切图/" scale="9grid" scale9grid="40,35,3,3"/>
+    <component id="ruukbq" name="CommWndFrame.xml" path="/Main/"/>
   </resources>
   <publish name="guess" path="publish">
     <atlas name="默认" compression="true" index="0"/>
+    <atlas compression="true" index="1"/>
   </publish>
 </packageDescription>

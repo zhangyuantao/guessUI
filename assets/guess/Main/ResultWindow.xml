@@ -8,7 +8,7 @@
       <relation target="" sidePair="center-center"/>
     </text>
     <graph id="n35_g4b8" name="n35" xy="81,251" size="558,522" group="n56_k76z" type="rect" lineSize="0" lineColor="#ff33ff00" corner="15"/>
-    <image id="n49_olms" name="n49" src="olmsaa" fileName="答错_slices/圆角矩形 7 拷贝 2.png" xy="90,260" group="n56_k76z">
+    <image id="n49_olms" name="n49" src="ruukbo" fileName="猜猜_边框.png" xy="90,260" size="539,502" group="n56_k76z">
       <relation target="n35_g4b8" sidePair="top-top"/>
     </image>
     <component id="n40_yhsu" name="btnNext" src="olmsai" fileName="Buttons/ButtonBlue.xml" xy="175,924" group="n56_k76z">

@@ -13,26 +13,23 @@
       <gearDisplay controller="themCtrl" pages="0"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n36_g4b8" name="btnRank" src="ns705f" fileName="Buttons/ButtonRank2.xml" xy="613,27">
+    <component id="n36_g4b8" name="btnRank" src="ns705f" fileName="Buttons/ButtonRank2.xml" xy="635,821">
+      <relation target="" sidePair="middle-middle"/>
       <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
     </component>
-    <component id="n39_g4b8" name="btnBack" src="v3gz5n" fileName="Buttons/ButtonHome.xml" xy="29,27">
+    <component id="n39_g4b8" name="btnBack" src="v3gz5n" fileName="Buttons/ButtonHome.xml" xy="23,38">
       <Button title="返回" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n40_ka02" name="goldComp" src="ka0243" fileName="Main/GoldComp.xml" xy="130,50"/>
+    <component id="n40_ka02" name="goldComp" src="ka0243" fileName="Main/GoldComp.xml" xy="115,71">
+      <relation target="n39_g4b8" sidePair="top-top"/>
+    </component>
     <list id="n50_ka02" name="lstSelect" xy="110,755" size="500,72" layout="flow_hz" selectionMode="none" colGap="33" align="center" vAlign="middle">
       <relation target="" sidePair="middle-middle"/>
     </list>
     <list id="n51_ka02" name="lstOption" xy="110,857" size="500,280" layout="flow_hz" selectionMode="none" lineGap="13" colGap="50" lineItemCount="4" align="center" vAlign="middle">
       <relation target="n50_ka02" sidePair="top-top"/>
     </list>
-    <graph id="n53_ka02" name="n53" xy="0,1160" size="720,120" touchable="false" type="rect" lineSize="0" fillColor="#ff46b8fd">
-      <relation target="" sidePair="width-width,bottom-bottom"/>
-    </graph>
-    <text id="n54_ka02" name="n54" xy="262,1201" pivot="0.5,0.5" size="195,42" fontSize="38" color="#ffffff" text="底部Banner">
-      <relation target="" sidePair="bottom-bottom"/>
-    </text>
-    <component id="n55_ka02" name="btnStart" src="ns705i" fileName="Buttons/ButtonMoreTip.xml" xy="60,632" pivot="0.5,0">
+    <component id="n55_ka02" name="btnUnlockTip" src="ns705i" fileName="Buttons/ButtonMoreTip.xml" xy="60,632" pivot="0.5,0">
       <relation target="" sidePair="middle-middle"/>
       <Button title="更多提示" titleColor="#0066cc" titleFontSize="24"/>
     </component>
@@ -40,12 +37,12 @@
       <relation target="" sidePair="middle-middle"/>
       <Button title="解锁答案" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n57_ka02" name="btnStart" src="ns705h" fileName="Buttons/ButtonShareFriend.xml" xy="7,728" pivot="0.5,0">
-      <relation target="n55_ka02" sidePair="left-left,top-top"/>
+    <component id="n57_ka02" name="btnShare" src="ns705h" fileName="Buttons/ButtonShareFriend.xml" xy="7,728" pivot="0.5,0">
+      <relation target="" sidePair="middle-middle"/>
       <Button title="考好友" titleColor="#0066cc" titleFontSize="24"/>
     </component>
     <component id="n58_ka02" name="btnRedBag" src="ns705c" fileName="Buttons/ButtonRedbag.xml" xy="7,836" pivot="0.5,0">
-      <relation target="n57_ka02" sidePair="top-top"/>
+      <relation target="" sidePair="middle-middle"/>
       <Button title="红包" titleColor="#0066cc" titleFontSize="24"/>
     </component>
     <component id="n59_ka02" name="rankItem1" src="ka0244" fileName="Main/RankTipComp.xml" xy="608,199">
@@ -57,7 +54,8 @@
     <component id="n61_ka02" name="rankItem3" src="ka0244" fileName="Main/RankTipComp.xml" xy="636,315">
       <relation target="n60_ka02" sidePair="left-left,top-top"/>
     </component>
-    <component id="n62_9swb" name="btnStage" src="ns705g" fileName="Buttons/ButtonStage2.xml" xy="510,27">
+    <component id="n62_9swb" name="btnStage" src="ns705g" fileName="Buttons/ButtonStage2.xml" xy="635,728">
+      <relation target="" sidePair="middle-middle"/>
       <Button title="关卡" titleColor="#0066cc" titleFontSize="30"/>
     </component>
     <component id="n63_fr5x" name="wrongTip" src="fr5x4a" fileName="Main/WrongTip.xml" xy="0,0" locked="true" hideByEditor="true" visible="false"/>

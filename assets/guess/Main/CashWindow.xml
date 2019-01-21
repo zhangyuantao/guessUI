@@ -7,7 +7,7 @@
     <graph id="n47_olms" name="n47" xy="81,422" size="558,253" type="rect" lineSize="0" corner="16">
       <relation target="" sidePair="middle-middle"/>
     </graph>
-    <image id="n48_olms" name="n48" src="olmsaa" fileName="答错_slices/圆角矩形 7 拷贝 2.png" xy="90,426" size="539,244">
+    <image id="n48_olms" name="n48" src="ruukbo" fileName="猜猜_边框.png" xy="90,431" pivot="0,0.5" size="539,233">
       <relation target="" sidePair="middle-middle"/>
     </image>
     <text id="n50_olms" name="txtTip" xy="110,500" size="500,139" font="SimHei" fontSize="36" color="#363636" align="center" vAlign="middle" autoSize="none" text="再想一想~">
