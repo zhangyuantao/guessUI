@@ -2,7 +2,7 @@
 <component size="720,1280">
   <controller name="themCtrl" pages="0,,1," selected="0"/>
   <displayList>
-    <image id="n23_le83" name="n23" src="pn39bb" fileName="元宵切图/背景.jpg" xy="0,0" size="720,1280">
+    <image id="n23_le83" name="n23" src="w82ybr" fileName="元宵切图/元宵背景.jpg" xy="0,0" size="720,1280">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <component id="n35_g4b8" name="questionPanel" src="nfab4e" fileName="Main/QuestionPanel.xml" xy="64,159">

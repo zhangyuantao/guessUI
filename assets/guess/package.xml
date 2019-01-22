@@ -166,8 +166,9 @@
     <image id="pn39bl" name="文字.png" path="/首页_slices/"/>
     <image id="pn39bm" name="中景.png" path="/首页_slices/"/>
     <image id="ruukbo" name="猜猜_边框.png" path="/" scale="9grid" scale9grid="19,218,4,6"/>
-    <image id="ruukbp" name="元宵_题目框.png" path="/元宵切图/" scale="9grid" scale9grid="40,35,3,3"/>
+    <image id="ruukbp" name="元宵_题目框.png" path="/元宵切图/" scale="9grid" scale9grid="41,40,2,2"/>
     <component id="ruukbq" name="CommWndFrame.xml" path="/Main/"/>
+    <image id="w82ybr" name="元宵背景.jpg" path="/元宵切图/" scale="tile" duplicatePadding="true"/>
   </resources>
   <publish name="guess" path="publish">
     <atlas name="默认" compression="true" index="0"/>
