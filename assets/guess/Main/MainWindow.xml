@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
-  <controller name="scopeCtrl" pages="0,,1," selected="0"/>
+  <controller name="scopeCtrl" pages="0,,1," selected="1"/>
   <displayList>
     <component id="n41_ns70" name="bg" src="pn39bh" fileName="Main/Background.xml" xy="0,0" size="720,1280">
       <relation target="" sidePair="width-width,height-height"/>
     </component>
-    <component id="n36_g4b8" name="btnRank" src="ns7058" fileName="Buttons/ButtonRank.xml" xy="50,1023">
+    <component id="n36_g4b8" name="btnRank" src="ns7058" fileName="Buttons/ButtonRank.xml" xy="130,960">
       <gearDisplay controller="scopeCtrl" pages="1"/>
+      <relation target="" sidePair="middle-middle"/>
       <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
     </component>
-    <component id="n37_g4b8" name="btnStage" src="ns7059" fileName="Buttons/ButtonStage.xml" xy="218,1023">
+    <component id="n37_g4b8" name="btnStage" src="ns7059" fileName="Buttons/ButtonStage.xml" xy="298,960">
       <gearDisplay controller="scopeCtrl" pages="1"/>
+      <relation target="" sidePair="middle-middle"/>
       <Button title="关卡" titleColor="#0066cc" titleFontSize="30"/>
     </component>
-    <component id="n38_g4b8" name="btnDraw" src="ns705a" fileName="Buttons/ButtonDraw.xml" xy="386,1023">
+    <component id="n38_g4b8" name="btnDraw" src="ns705a" fileName="Buttons/ButtonDraw.xml" xy="642,960" hideByEditor="true" visible="false">
       <gearDisplay controller="scopeCtrl" pages="1"/>
+      <relation target="" sidePair="middle-middle"/>
       <Button title="转盘" titleColor="#0066cc" titleFontSize="30"/>
     </component>
-    <component id="n39_g4b8" name="btnShare" src="ns705b" fileName="Buttons/ButtonShare.xml" xy="554,1023">
+    <component id="n39_g4b8" name="btnShare" src="ns705b" fileName="Buttons/ButtonShare.xml" xy="474,960">
       <gearDisplay controller="scopeCtrl" pages="1"/>
+      <relation target="" sidePair="middle-middle"/>
       <Button title="分享" titleColor="#0066cc" titleFontSize="30"/>
     </component>
     <component id="n42_yx15" name="btnStart" src="yx15aw" fileName="Buttons/ButtonStart.xml" xy="172,679">
       <relation target="" sidePair="middle-middle"/>
     </component>
-    <component id="n44_8q33" name="btnCloseRank" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,1124" visible="false"/>
+    <component id="n44_8q33" name="btnCloseRank" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,1100" hideByEditor="true" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
   </displayList>
 </component>

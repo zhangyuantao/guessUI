@@ -4,28 +4,13 @@
     <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" alpha="0.8" type="rect" lineSize="0" fillColor="#ff000000">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n53_olms" name="txtTitle" xy="146,339" size="428,40" hideByEditor="true" visible="false" fontSize="36" color="#363636" align="center" autoSize="none" text="恭喜您，过关了！">
-      <relation target="" sidePair="center-center"/>
-    </text>
-    <graph id="n35_g4b8" name="n35" xy="81,251" size="558,522" group="n56_k76z" type="rect" lineSize="0" lineColor="#ff33ff00" corner="15"/>
-    <image id="n49_olms" name="n49" src="ruukbo" fileName="猜猜_边框.png" xy="90,260" size="539,502" group="n56_k76z">
-      <relation target="n35_g4b8" sidePair="top-top"/>
-    </image>
+    <component id="n35_g4b8" name="n35" src="ruukbq" fileName="Main/CommWndFrame.xml" xy="81,251" size="558,522" group="n56_k76z"/>
     <component id="n40_yhsu" name="btnNext" src="olmsai" fileName="Buttons/ButtonBlue.xml" xy="175,924" group="n56_k76z">
       <relation target="n41_gv7h" sidePair="left-left,top-top"/>
       <Button title="下一题" titleColor="#3b6bc2"/>
     </component>
     <component id="n41_gv7h" name="btnInvite" src="g4b83z" fileName="Buttons/ButtonYellow.xml" xy="175,808" group="n56_k76z">
       <Button title="邀请有奖"/>
-    </component>
-    <component id="n43_gv7h" name="rankPre" src="gv7h48" fileName="Main/RankComp.xml" xy="176,626" group="n56_k76z">
-      <relation target="n44_gv7h" sidePair="left-left"/>
-    </component>
-    <component id="n44_gv7h" name="rankMe" src="gv7h48" fileName="Main/RankComp.xml" xy="322,626" group="n56_k76z">
-      <relation target="" sidePair="center-center"/>
-    </component>
-    <component id="n45_gv7h" name="rankNxt" src="gv7h48" fileName="Main/RankComp.xml" xy="468,626" group="n56_k76z">
-      <relation target="n44_gv7h" sidePair="right-right"/>
     </component>
     <text id="n50_olms" name="txtTitle2" xy="305,573" size="109,30" group="n56_k76z" fontSize="26" color="#363636" align="center" text="好友排行">
       <relation target="" sidePair="center-center"/>
@@ -44,7 +29,7 @@
     <text id="n55_olms" name="txtTip" xy="277,525" size="165,20" group="n56_k76z" fontSize="16" color="#363636" align="center" text="(已答对的题不再获得)">
       <relation target="n54_olms" sidePair="center-center,top-top"/>
     </text>
-    <group id="n56_k76z" name="n56" xy="81,184" size="558,828" advanced="true">
+    <group id="n56_k76z" name="n56" xy="81,184" size="558,828" advanced="true" collapsed="true">
       <relation target="" sidePair="middle-middle"/>
     </group>
   </displayList>

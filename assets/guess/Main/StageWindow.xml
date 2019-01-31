@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
   <displayList>
-    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" alpha="0.8" type="rect" lineSize="0" fillColor="#ff333333">
+    <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" alpha="0.8" type="rect" lineSize="0" fillColor="#ff000000">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <component id="n68_ruuk" name="n68" src="ruukbq" fileName="Main/CommWndFrame.xml" xy="74,250" size="572,708"/>
-    <list id="n51_ka02" name="lstLevel" xy="110,349" size="500,577" layout="flow_hz" selectionMode="none" scroll="horizontal" lineGap="27" colGap="27" lineItemCount="4" align="center">
-      <relation target="" sidePair="middle-middle"/>
+    <component id="n68_ruuk" name="n68" src="ruukbq" fileName="Main/CommWndFrame.xml" xy="74,250" size="572,708" group="n69_z7ib"/>
+    <list id="n51_ka02" name="lstLevel" xy="110,349" size="500,577" group="n69_z7ib" layout="flow_hz" selectionMode="none" scroll="horizontal" lineGap="27" colGap="27" lineItemCount="4" align="center">
       <item url="ui://u9b31fxfd3ko46"/>
       <item url="ui://u9b31fxfd3ko46"/>
       <item url="ui://u9b31fxfd3ko46"/>
@@ -28,23 +27,19 @@
       <item url="ui://u9b31fxfd3ko46"/>
       <item url="ui://u9b31fxfd3ko46"/>
     </list>
-    <component id="n39_g4b8" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,995">
-      <relation target="" sidePair="middle-middle"/>
+    <component id="n39_g4b8" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,995" group="n69_z7ib">
       <Button title="关闭" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n65_d3ko" name="btnPre" src="jo5c7d" fileName="Buttons/ButtonPrePage.xml" xy="90,581">
-      <relation target="n51_ka02" sidePair="middle-middle"/>
+    <component id="n65_d3ko" name="btnPre" src="jo5c7d" fileName="Buttons/ButtonPrePage.xml" xy="90,581" group="n69_z7ib">
       <Button title="上一页" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n66_d3ko" name="btnNext" src="jo5c7e" fileName="Buttons/ButtonNxtPage.xml" xy="603,581">
-      <relation target="n51_ka02" sidePair="middle-middle"/>
+    <component id="n66_d3ko" name="btnNext" src="jo5c7e" fileName="Buttons/ButtonNxtPage.xml" xy="603,581" group="n69_z7ib">
       <Button title="下一页" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <image id="n67_jo5c" name="n67" src="jo5c7f" fileName="关卡_slices/弹窗标题.png" xy="95,183">
+    <image id="n67_jo5c" name="n67" src="jo5c7f" fileName="关卡_slices/弹窗标题.png" xy="95,183" group="n69_z7ib"/>
+    <text id="n64_d3ko" name="txtRank" xy="190,208" size="340,60" group="n69_z7ib" font="ui://u9b31fxfv3gz6p" fontSize="40" color="#333333" align="center" vAlign="middle" letterSpacing="-7" autoSize="none" text="小学生"/>
+    <group id="n69_z7ib" name="n69" xy="74,183" size="572,876" advanced="true" collapsed="true">
       <relation target="" sidePair="middle-middle"/>
-    </image>
-    <text id="n64_d3ko" name="txtRank" xy="190,208" size="340,60" font="ui://u9b31fxfv3gz6p" fontSize="40" color="#333333" align="center" vAlign="middle" letterSpacing="-7" autoSize="none" text="小学生">
-      <relation target="n67_jo5c" sidePair="top-top"/>
-    </text>
+    </group>
   </displayList>
 </component>

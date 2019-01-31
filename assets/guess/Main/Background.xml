@@ -4,8 +4,8 @@
     <image id="n41_ns70" name="bg" src="w82ybr" fileName="元宵切图/元宵背景.jpg" xy="0,0" size="720,1280">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <image id="n42_pn39" name="n42" src="pn39bc" fileName="元宵切图/灯笼.png" xy="0,0"/>
-    <image id="n43_pn39" name="n43" src="pn39bd" fileName="元宵切图/海浪.png" xy="0,1155">
+    <image id="n42_pn39" name="n42" src="pn39bc" fileName="元宵切图/灯笼.png" xy="0,-2"/>
+    <image id="n43_pn39" name="n43" src="pn39bd" fileName="元宵切图/海浪.png" xy="-1,1156" size="724,125" aspect="true">
       <relation target="" sidePair="bottom-bottom"/>
     </image>
     <image id="n44_pn39" name="n44" src="pn39be" fileName="元宵切图/祥云.png" xy="0,528">

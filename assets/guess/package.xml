@@ -7,11 +7,9 @@
     <component id="ka0241" name="TipItem.xml" path="/Main/" exported="true"/>
     <component id="ka0242" name="WordItem.xml" path="/Main/" exported="true"/>
     <component id="ka0243" name="GoldComp.xml" path="/Main/"/>
-    <component id="ka0244" name="RankTipComp.xml" path="/Main/" exported="true"/>
     <component id="d3ko45" name="StageWindow.xml" path="/Main/" exported="true"/>
     <component id="d3ko46" name="StageItem.xml" path="/Main/" exported="true"/>
     <component id="yhsu47" name="ResultWindow.xml" path="/Main/" exported="true"/>
-    <component id="gv7h48" name="RankComp.xml" path="/Main/" exported="true"/>
     <component id="fr5x4a" name="WrongTip.xml" path="/Main/"/>
     <component id="nfab4b" name="RedBagWindow.xml" path="/Main/" exported="true"/>
     <component id="nfab4c" name="ButtonContact.xml" path="/Buttons/"/>
@@ -140,8 +138,6 @@
     <component id="olmsai" name="ButtonBlue.xml" path="/Buttons/"/>
     <image id="po6bak" name="组 172@2x.png" path="/金币不足_slices/"/>
     <image id="po6bal" name="组 194@2x.png" path="/提现_slices/"/>
-    <component id="yx15aq" name="Avatar.xml" path="/Main/"/>
-    <image id="yx15ar" name="n40.png" path="/"/>
     <component id="yx15at" name="CashWindow.xml" path="/Main/" exported="true"/>
     <component id="yx15au" name="LackGoldWindow.xml" path="/Main/" exported="true"/>
     <component id="yx15av" name="FirstShareGroupWindow.xml" path="/Main/" exported="true"/>
@@ -165,10 +161,12 @@
     <image id="pn39bk" name="前景.png" path="/首页_slices/"/>
     <image id="pn39bl" name="文字.png" path="/首页_slices/"/>
     <image id="pn39bm" name="中景.png" path="/首页_slices/"/>
-    <image id="ruukbo" name="猜猜_边框.png" path="/" scale="9grid" scale9grid="19,218,4,6"/>
     <image id="ruukbp" name="元宵_题目框.png" path="/元宵切图/" scale="9grid" scale9grid="41,40,2,2"/>
     <component id="ruukbq" name="CommWndFrame.xml" path="/Main/"/>
     <image id="w82ybr" name="元宵背景.jpg" path="/元宵切图/" scale="tile" duplicatePadding="true"/>
+    <image id="aa43bs" name="n40.png" path="/主页面_slices/"/>
+    <image id="aa43bu" name="猜猜_边框.png" path="/主页面_slices/" scale="9grid" scale9grid="18,214,3,5"/>
+    <image id="u9edbv" name="好友.png" path="/首页_slices/"/>
   </resources>
   <publish name="guess" path="publish">
     <atlas name="默认" compression="true" index="0"/>
