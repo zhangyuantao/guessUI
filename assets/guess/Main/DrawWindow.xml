@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1280">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <controller name="c2" pages="0,,1," selected="0"/>
   <displayList>
     <graph id="n23_le83" name="n23" xy="0,0" size="720,1280" locked="true" alpha="0.8" type="rect" lineSize="0" fillColor="#ff000000">
       <relation target="" sidePair="width-width,height-height"/>
@@ -7,7 +9,7 @@
     <component id="n67_v3gz" name="wheel" src="v3gz71" fileName="Main/Wheel.xml" xy="360,500" rotation="364.1">
       <relation target="" sidePair="middle-middle"/>
     </component>
-    <component id="n68_v3gz" name="btnDraw" src="v3gz70" fileName="Buttons/ButtonDraw2.xml" xy="215,850">
+    <component id="n68_v3gz" name="btnDraw" src="v3gz70" fileName="Buttons/ButtonDraw2.xml" xy="215,830">
       <relation target="n67_v3gz" sidePair="top-top"/>
     </component>
     <component id="n70_v3gz" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="586,196">
@@ -17,5 +19,15 @@
     <component id="n71_v3gz" name="n71" src="v3gz72" fileName="Main/Arrow.xml" xy="360,500">
       <relation target="n67_v3gz" sidePair="left-left,top-top"/>
     </component>
+    <text id="n72_v1kb" name="n72" xy="225,925" size="269,28" fontSize="24" color="#ffffff" text="（今日看广告次数已满）">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="n68_v3gz" sidePair="top-top"/>
+    </text>
+    <graph id="n73_v1kb" name="n73" xy="360,500" pivot="0.5,0.5" anchor="true" size="350,50" group="n75_v1kb" type="rect" lineSize="2" lineColor="#ffffffff" fillColor="#ff000000" corner="25"/>
+    <text id="n74_v1kb" name="txtBonus" xy="200,489" size="320,28" group="n75_v1kb" fontSize="22" color="#ffffff" align="center" autoSize="none" text="获得金币：+50"/>
+    <group id="n75_v1kb" name="n75" xy="200,489" size="510,61" advanced="true">
+      <gearDisplay controller="c2" pages="1"/>
+      <relation target="n67_v3gz" sidePair="left-left,top-top"/>
+    </group>
   </displayList>
 </component>

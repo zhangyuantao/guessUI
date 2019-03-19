@@ -7,10 +7,10 @@
     <component id="n47_olms" name="n47" src="ruukbq" fileName="Main/CommWndFrame.xml" xy="81,251" size="558,522" group="n55_k76z"/>
     <image id="n49_olms" name="n49" src="po6bak" fileName="金币不足_slices/组 172@2x.png" xy="285,405" group="n55_k76z"/>
     <text id="n32_le83" name="txt" xy="110,313" size="500,54" group="n55_k76z" font="SimHei" fontSize="48" color="#0084ff" align="center" autoSize="none" text="金币不足！"/>
-    <text id="n50_olms" name="txtTip" xy="110,592" size="500,34" group="n55_k76z" font="SimHei" fontSize="36" color="#363636" align="center" autoSize="none" text="再想一想~"/>
+    <text id="n50_olms" name="txtTip" xy="110,552" size="500,34" group="n55_k76z" font="SimHei" fontSize="36" color="#363636" align="center" autoSize="none" text="再想一想~"/>
     <component id="n52_yx15" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,846" group="n55_k76z"/>
     <component id="n54_yx15" name="btnTask" src="g4b83z" fileName="Buttons/ButtonYellow.xml" xy="175,644" group="n55_k76z">
-      <Button title="完成任务"/>
+      <Button title="转盘抽金币"/>
     </component>
     <group id="n55_k76z" name="n55" xy="81,251" size="558,659" advanced="true">
       <relation target="" sidePair="middle-middle"/>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n0_nfab" name="n0" xy="0,0" size="720,1280" alpha="0.8" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n1_nfab" name="n1" src="k9wqc7" fileName="红包_slices/手机弹窗.png" xy="81,319" group="n13_k76z"/>
+    <component id="n6_nfab" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,942" group="n13_k76z" aspect="true">
+      <Button title="X"/>
+    </component>
+    <group id="n13_k76z" name="n13" xy="81,319" size="558,687" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+  </displayList>
+</component>

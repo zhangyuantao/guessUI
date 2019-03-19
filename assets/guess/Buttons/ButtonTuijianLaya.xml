@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,135" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n17_v1kb" name="n17" xy="0,0" size="110,135" type="rect" lineSize="0" lineColor="#ff33ff00" corner="10">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n16_v1kb" name="n16" xy="5,5" size="100,100" visible="false" type="rect" lineSize="0" fillColor="#ff0099ff" corner="15">
+      <relation target="" sidePair="center-center,top-top"/>
+    </graph>
+    <text id="n18_v1kb" name="n18" xy="0,105" size="110,30" fontSize="20" align="center" vAlign="middle" autoSize="none" text="好玩推荐"/>
+    <image id="n14_v1kb" name="n14" src="v1kbcc" fileName="主页面_slices/圆.png" xy="92,-5"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>

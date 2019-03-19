@@ -3,7 +3,7 @@
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
     <image id="n4_ns70" name="n4" src="v3gz6w" fileName="转盘_slices/圆角矩形 25@2x.png" xy="0,0"/>
-    <text id="n5_v3gz" name="n5" xy="48,24" size="193,40" fontSize="36" color="#982202" align="center" bold="true" text="转盘领红包"/>
+    <text id="n5_v3gz" name="n5" xy="68,24" size="153,40" fontSize="36" color="#982202" align="center" bold="true" text="转盘抽奖"/>
   </displayList>
   <Button downEffect="dark" downEffectValue="0.80"/>
 </component>

@@ -167,6 +167,29 @@
     <image id="aa43bs" name="n40.png" path="/主页面_slices/"/>
     <image id="aa43bu" name="猜猜_边框.png" path="/主页面_slices/" scale="9grid" scale9grid="18,214,3,5"/>
     <image id="u9edbv" name="好友.png" path="/首页_slices/"/>
+    <image id="s03qbw" name="轮盘.png" path="/转盘_slices/"/>
+    <image id="s03qbx" name="上.png" path="/艺术字_slices/"/>
+    <image id="s03qby" name="举.png" path="/艺术字_slices/"/>
+    <image id="s03qbz" name="人.png" path="/艺术字_slices/"/>
+    <image id="s03qc0" name="元.png" path="/艺术字_slices/"/>
+    <image id="s03qc1" name="士.png" path="/艺术字_slices/"/>
+    <image id="s03qc2" name="才.png" path="/艺术字_slices/"/>
+    <image id="s03qc3" name="状.png" path="/艺术字_slices/"/>
+    <image id="s03qc4" name="皇.png" path="/艺术字_slices/"/>
+    <image id="s03qc5" name="秀.png" path="/艺术字_slices/"/>
+    <image id="s03qc6" name="进.png" path="/艺术字_slices/"/>
+    <image id="k9wqc7" name="手机弹窗.png" path="/红包_slices/"/>
+    <image id="k9wqc8" name="推荐.png" path="/首页_slices/"/>
+    <component id="k9wqc9" name="GiftWindow.xml" path="/Main/" exported="true"/>
+    <component id="k9wqca" name="ButtonTuijian.xml" path="/Buttons/"/>
+    <image id="v1kbcb" name="宝箱.png" path="/主页面_slices/"/>
+    <image id="v1kbcc" name="圆.png" path="/主页面_slices/"/>
+    <image id="v1kbcd" name="推荐1.png" path="/首页_slices/"/>
+    <image id="v1kbce" name="推荐2.png" path="/首页_slices/"/>
+    <image id="v1kbcf" name="n6.png" path="/主页面_slices/"/>
+    <component id="v1kbcg" name="ButtonTuijianLaya.xml" path="/Buttons/"/>
+    <image id="jilych" name="抽奖.png" path="/首页_slices/"/>
+    <component id="kzz6ci" name="AnswerLimitWindow.xml" path="/Main/" exported="true"/>
   </resources>
   <publish name="guess" path="publish">
     <atlas name="默认" compression="true" index="0"/>

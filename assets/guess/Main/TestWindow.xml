@@ -13,7 +13,7 @@
       <gearDisplay controller="themCtrl" pages="0"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </component>
-    <component id="n36_g4b8" name="btnRank" src="ns705f" fileName="Buttons/ButtonRank2.xml" xy="635,821">
+    <component id="n36_g4b8" name="btnRank" src="ns705f" fileName="Buttons/ButtonRank2.xml" xy="635,790">
       <relation target="" sidePair="middle-middle"/>
       <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
     </component>
@@ -23,29 +23,29 @@
     <component id="n40_ka02" name="goldComp" src="ka0243" fileName="Main/GoldComp.xml" xy="115,71">
       <relation target="n39_g4b8" sidePair="top-top"/>
     </component>
-    <list id="n50_ka02" name="lstSelect" xy="110,755" size="500,72" layout="flow_hz" selectionMode="none" colGap="33" align="center" vAlign="middle">
+    <list id="n50_ka02" name="lstSelect" xy="110,690" size="500,72" layout="flow_hz" selectionMode="none" colGap="33" align="center" vAlign="middle">
       <relation target="" sidePair="middle-middle"/>
     </list>
-    <list id="n51_ka02" name="lstOption" xy="110,857" size="500,280" layout="flow_hz" selectionMode="none" lineGap="13" colGap="50" lineItemCount="4" align="center" vAlign="middle">
+    <list id="n51_ka02" name="lstOption" xy="110,785" size="500,280" layout="flow_hz" selectionMode="none" lineGap="13" colGap="50" lineItemCount="4" align="center" vAlign="middle">
       <relation target="n50_ka02" sidePair="top-top"/>
     </list>
-    <component id="n55_ka02" name="btnUnlockTip" src="ns705i" fileName="Buttons/ButtonMoreTip.xml" xy="60,632" pivot="0.5,0">
+    <component id="n55_ka02" name="btnUnlockTip" src="ns705i" fileName="Buttons/ButtonMoreTip.xml" xy="60,560" pivot="0.5,0">
       <relation target="" sidePair="middle-middle"/>
       <Button title="更多提示" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n56_ka02" name="btnUnlock" src="ns705j" fileName="Buttons/ButtonGoldUnlock.xml" xy="393,632" pivot="0.5,0">
+    <component id="n56_ka02" name="btnUnlock" src="ns705j" fileName="Buttons/ButtonGoldUnlock.xml" xy="393,560" pivot="0.5,0">
       <relation target="" sidePair="middle-middle"/>
       <Button title="解锁答案" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n57_ka02" name="btnShare" src="ns705h" fileName="Buttons/ButtonShareFriend.xml" xy="7,728" pivot="0.5,0">
+    <component id="n57_ka02" name="btnShare" src="ns705h" fileName="Buttons/ButtonShareFriend.xml" xy="7,780" pivot="0.5,0">
       <relation target="" sidePair="middle-middle"/>
       <Button title="考好友" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n58_ka02" name="btnRedBag" src="ns705c" fileName="Buttons/ButtonRedbag.xml" xy="7,836" pivot="0.5,0" visible="false">
+    <component id="n58_ka02" name="btnRedBag" src="ns705c" fileName="Buttons/ButtonRedbag.xml" xy="5,687" pivot="0.5,0.5">
       <relation target="" sidePair="middle-middle"/>
       <Button title="红包" titleColor="#0066cc" titleFontSize="24"/>
     </component>
-    <component id="n62_9swb" name="btnStage" src="ns705g" fileName="Buttons/ButtonStage2.xml" xy="635,728">
+    <component id="n62_9swb" name="btnStage" src="ns705g" fileName="Buttons/ButtonStage2.xml" xy="635,687">
       <relation target="" sidePair="middle-middle"/>
       <Button title="关卡" titleColor="#0066cc" titleFontSize="30"/>
     </component>
@@ -58,5 +58,6 @@
       <gearColor controller="themCtrl" pages="0,1" values="#a5120f,#000000|#a5120f,#000000"/>
       <relation target="n67_olms" sidePair="top-top"/>
     </text>
+    <component id="n69_v1kb" name="n69" src="k9wqca" fileName="Buttons/ButtonTuijian.xml" xy="0,974" scale="0.75,0.75"/>
   </displayList>
 </component>

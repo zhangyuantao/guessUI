@@ -5,31 +5,33 @@
     <component id="n41_ns70" name="bg" src="pn39bh" fileName="Main/Background.xml" xy="0,0" size="720,1280">
       <relation target="" sidePair="width-width,height-height"/>
     </component>
-    <component id="n36_g4b8" name="btnRank" src="ns7058" fileName="Buttons/ButtonRank.xml" xy="130,960">
-      <gearDisplay controller="scopeCtrl" pages="1"/>
-      <relation target="" sidePair="middle-middle"/>
-      <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
-    </component>
-    <component id="n37_g4b8" name="btnStage" src="ns7059" fileName="Buttons/ButtonStage.xml" xy="298,960">
-      <gearDisplay controller="scopeCtrl" pages="1"/>
-      <relation target="" sidePair="middle-middle"/>
-      <Button title="关卡" titleColor="#0066cc" titleFontSize="30"/>
-    </component>
-    <component id="n38_g4b8" name="btnDraw" src="ns705a" fileName="Buttons/ButtonDraw.xml" xy="642,960" hideByEditor="true" visible="false">
-      <gearDisplay controller="scopeCtrl" pages="1"/>
-      <relation target="" sidePair="middle-middle"/>
-      <Button title="转盘" titleColor="#0066cc" titleFontSize="30"/>
-    </component>
-    <component id="n39_g4b8" name="btnShare" src="ns705b" fileName="Buttons/ButtonShare.xml" xy="474,960">
-      <gearDisplay controller="scopeCtrl" pages="1"/>
-      <relation target="" sidePair="middle-middle"/>
-      <Button title="分享" titleColor="#0066cc" titleFontSize="30"/>
-    </component>
-    <component id="n42_yx15" name="btnStart" src="yx15aw" fileName="Buttons/ButtonStart.xml" xy="172,679">
+    <component id="n42_yx15" name="btnStart" src="yx15aw" fileName="Buttons/ButtonStart.xml" xy="172,660">
       <relation target="" sidePair="middle-middle"/>
     </component>
     <component id="n44_8q33" name="btnCloseRank" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,1100" hideByEditor="true" visible="false">
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </component>
+    <component id="n36_g4b8" name="btnRank" src="ns7058" fileName="Buttons/ButtonRank.xml" xy="24,930" group="n45_s03q">
+      <gearDisplay controller="scopeCtrl" pages="1"/>
+      <Button title="排行" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+    <component id="n37_g4b8" name="btnStage" src="ns7059" fileName="Buttons/ButtonStage.xml" xy="161,930" group="n45_s03q">
+      <gearDisplay controller="scopeCtrl" pages="1"/>
+      <Button title="关卡" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+    <component id="n38_g4b8" name="btnDraw" src="ns705a" fileName="Buttons/ButtonDraw.xml" xy="435,930" group="n45_s03q">
+      <gearDisplay controller="scopeCtrl" pages="1"/>
+      <Button title="转盘" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+    <component id="n39_g4b8" name="btnShare" src="ns705b" fileName="Buttons/ButtonShare.xml" xy="298,930" group="n45_s03q">
+      <gearDisplay controller="scopeCtrl" pages="1"/>
+      <Button title="分享" titleColor="#0066cc" titleFontSize="30"/>
+    </component>
+    <component id="n47_k9wq" name="btnTuijian" src="k9wqca" fileName="Buttons/ButtonTuijian.xml" xy="572,930" group="n45_s03q">
+      <gearDisplay controller="scopeCtrl" pages="1"/>
+    </component>
+    <group id="n45_s03q" name="n45" xy="24,930" size="672,124" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
   </displayList>
 </component>

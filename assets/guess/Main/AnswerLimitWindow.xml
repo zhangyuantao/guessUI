@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <graph id="n51_olms" name="n51" xy="0,0" size="720,1280" alpha="0.8" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n57_kzz6" name="n57" xy="85,311" size="550,419" group="n55_k76z" type="rect" lineSize="0" lineColor="#ff33ff00" corner="16">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n32_le83" name="txtTip" xy="110,368" size="500,54" group="n55_k76z" font="SimHei" fontSize="48" color="#0084ff" align="center" autoSize="none" text="免费答题次数用完！"/>
+    <component id="n52_yx15" name="btnClose" src="jo5c7c" fileName="Buttons/ButtonClose.xml" xy="328,786" group="n55_k76z"/>
+    <component id="n54_yx15" name="btnTask" src="g4b83z" fileName="Buttons/ButtonYellow.xml" xy="175,594" group="n55_k76z">
+      <Button title="领取答题机会"/>
+    </component>
+    <image id="n56_kzz6" name="n56" src="olmsab" fileName="答错_slices/组 194.png" xy="285,450" group="n55_k76z"/>
+    <group id="n55_k76z" name="n55" xy="85,311" size="550,539" advanced="true">
+      <relation target="" sidePair="middle-middle"/>
+    </group>
+  </displayList>
+</component>

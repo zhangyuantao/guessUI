@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="84,97" extention="Button">
+<component size="85,66" extention="Button">
   <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
-    <image id="n4_ns70" name="n4" src="ns7055" fileName="主页面_slices/红包@2x.png" xy="0,0"/>
+    <image id="n4_ns70" name="n4" src="v1kbcb" fileName="主页面_slices/宝箱.png" xy="0,0" pivot="0.5,0.5"/>
+    <image id="n5_v1kb" name="n5" src="v1kbcc" fileName="主页面_slices/圆.png" xy="60,0"/>
   </displayList>
   <Button downEffect="dark" downEffectValue="0.80"/>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n4_ns70" tween="true" startValue="0" endValue="5" duration="3"/>
+    <item time="3" type="Rotation" target="n4_ns70" tween="true" startValue="5" endValue="0" duration="3"/>
+    <item time="6" type="Rotation" target="n4_ns70" tween="true" startValue="0" endValue="-3" duration="3"/>
+    <item time="9" type="Rotation" target="n4_ns70" tween="true" startValue="-3" endValue="0" duration="3"/>
+    <item time="12" type="Rotation" target="n4_ns70" tween="true" startValue="0" endValue="3" duration="3"/>
+    <item time="15" type="Rotation" target="n4_ns70" tween="true" startValue="3" endValue="0" duration="3"/>
+    <item time="48" type="Rotation" target="n4_ns70" value="0"/>
+  </transition>
 </component>

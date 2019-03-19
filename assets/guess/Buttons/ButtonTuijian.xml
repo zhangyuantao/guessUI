@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="124,124" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4_ns70" name="n4" src="v1kbcd" fileName="首页_slices/推荐1.png" xy="0,0"/>
+    <image id="n6_k9wq" name="n6" src="v1kbcf" fileName="主页面_slices/n6.png" xy="18,10" size="88,88"/>
+    <image id="n7_v1kb" name="n7" src="v1kbce" fileName="首页_slices/推荐2.png" xy="0,87">
+      <relation target="n4_ns70" sidePair="top-top"/>
+    </image>
+    <image id="n14_v1kb" name="n14" src="v1kbcc" fileName="主页面_slices/圆.png" xy="85,10"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>

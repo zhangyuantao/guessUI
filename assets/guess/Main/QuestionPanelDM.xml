@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="595,447">
+<component size="595,375">
   <displayList>
-    <image id="n69_pn39" name="n69" src="ruukbp" fileName="元宵切图/元宵_题目框.png" xy="0,0" size="595,447"/>
-    <text id="n66_nfab" name="txtDMTip1" xy="22,42" size="550,176" fontSize="40" color="#ffec8b" align="center" vAlign="middle" autoSize="none" text="丈二和尚"/>
-    <text id="n67_nfab" name="txtDMTip2" xy="22,218" size="550,89" fontSize="30" color="#ffec8b" align="center" vAlign="middle" autoSize="none" text="打一字"/>
-    <text id="n68_nfab" name="txtDMTip3" xy="22,307" size="550,85" fontSize="26" color="#fffffe" align="center" vAlign="middle" autoSize="none" text="小提示：士大夫大师傅"/>
+    <image id="n69_pn39" name="n69" src="ruukbp" fileName="元宵切图/元宵_题目框.png" xy="0,0" size="595,375">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n66_nfab" name="txtDMTip1" xy="22,40" size="550,150" fontSize="40" color="#ffec8b" align="center" vAlign="middle" autoSize="none" text="丈二和尚&#xA;丈二和尚&#xA;丈二和尚"/>
+    <text id="n67_nfab" name="txtDMTip2" xy="22,190" size="550,80" fontSize="30" color="#ffec8b" align="center" vAlign="middle" autoSize="none" text="打一字"/>
+    <text id="n68_nfab" name="txtDMTip3" xy="22,266" size="550,80" fontSize="26" color="#fffffe" align="center" vAlign="middle" autoSize="none" text="小提示：士大夫大师"/>
   </displayList>
 </component>
